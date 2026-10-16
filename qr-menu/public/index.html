@@ -2,111 +2,176 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Menü · Restoran Adı</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Restoran Adı — Menü</title>
+<meta name="theme-color" content="#f6f2ec" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151311" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter+Tight:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #faf8f5; --card: #ffffff; --text: #1f1d1a; --muted: #6f6a63;
-    --line: #e7e2db; --accent: #b4532a;
+    --zemin: #f6f2ec; --yazi: #1d1a17; --soluk: #7b736a; --cizgi: #d9d1c6; --vurgu: #8a4b2a;
+    --serif: 'Instrument Serif', Georgia, 'Times New Roman', serif;
+    --sans: 'Inter Tight', system-ui, -apple-system, 'Segoe UI', sans-serif;
   }
   @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #141312; --card: #1d1c1a; --text: #f2efea; --muted: #a39d95;
-      --line: #2e2c29; --accent: #e08a5f;
-    }
+    :root { --zemin: #151311; --yazi: #efe9e1; --soluk: #9a9187; --cizgi: #34302b; --vurgu: #d08a5e; }
   }
   * { box-sizing: border-box; }
   body {
-    margin: 0; background: var(--bg); color: var(--text);
-    font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    margin: 0; background: var(--zemin); color: var(--yazi);
+    font: 16px/1.5 var(--sans);
+    -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%;
   }
-  header { padding: 28px 16px 12px; text-align: center; }
-  h1 { margin: 0; font-size: 1.6rem; }
-  header p { margin: 4px 0 0; color: var(--muted); font-size: .9rem; }
-  main { max-width: 640px; margin: 0 auto; padding: 8px 16px 32px; }
 
-  details {
-    background: var(--card); border: 1px solid var(--line);
-    border-radius: 12px; margin-bottom: 10px; overflow: hidden;
-  }
-  summary {
-    list-style: none; cursor: pointer; padding: 16px;
-    font-weight: 600; font-size: 1.1rem;
+  .ust { max-width: 640px; margin: 0 auto; padding: 56px 20px 20px; text-align: center; }
+  h1 { margin: 0; font: 400 clamp(40px, 11vw, 60px)/1.02 var(--serif); overflow-wrap: anywhere; }
+  .etiket { margin: 14px 0 0; font-size: 12px; letter-spacing: .24em; text-transform: uppercase; color: var(--soluk); }
+
+  main { max-width: 640px; margin: 0 auto; padding: 8px 20px 40px; }
+
+  /* Kategori: dokununca açılır */
+  .kat { border-bottom: 1px solid var(--cizgi); }
+  .kat summary {
+    list-style: none; cursor: pointer;
     display: flex; justify-content: space-between; align-items: center;
+    padding: 22px 0 16px;
+    font: 400 30px/1.15 var(--serif); color: var(--vurgu);
   }
-  summary::-webkit-details-marker { display: none; }
-  summary::after { content: "+"; color: var(--accent); font-size: 1.5rem; font-weight: 400; line-height: 1; }
-  details[open] summary::after { content: "−"; }
-
-  ul { list-style: none; margin: 0; padding: 0 16px 6px; }
-  li {
-    display: flex; justify-content: space-between; gap: 12px;
-    padding: 12px 0; border-top: 1px solid var(--line);
+  .kat summary::-webkit-details-marker { display: none; }
+  .kat summary::after {
+    content: ""; width: 10px; height: 10px; margin-right: 6px;
+    border-right: 1.5px solid var(--soluk); border-bottom: 1.5px solid var(--soluk);
+    transform: rotate(45deg); transition: transform .2s;
   }
-  .ad { font-weight: 500; }
-  .aciklama { display: block; color: var(--muted); font-size: .85rem; }
-  .fiyat { white-space: nowrap; font-weight: 600; color: var(--accent); }
+  .kat[open] summary::after { transform: rotate(-135deg); }
 
-  footer { text-align: center; color: var(--muted); font-size: .8rem; padding: 0 16px 28px; }
+  /* Ürün: solda resim, ad, noktalı çizgi, fiyat */
+  .kat ul { list-style: none; margin: 0; padding: 0 0 12px; }
+  .kat li { display: flex; align-items: center; gap: 14px; padding: 12px 0; }
+  .kat li + li { border-top: 1px solid var(--cizgi); }
+  .kat li img {
+    flex: none; width: 56px; height: 56px; border-radius: 10px;
+    object-fit: cover; background: var(--cizgi); cursor: zoom-in;
+  }
+  .ad {
+    flex: 1; min-width: 0; display: flex; align-items: center; gap: 10px;
+    font-size: 17px; font-weight: 500; overflow-wrap: anywhere;
+  }
+  .ad::after { content: ""; flex: 1; min-width: 16px; border-bottom: 1px dotted var(--cizgi); }
+  .fiyat { flex: none; font-weight: 500; font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  .alt {
+    max-width: 640px; margin: 0 auto; padding: 32px 20px calc(28px + env(safe-area-inset-bottom));
+    text-align: center; font-size: 13px; color: var(--soluk);
+  }
+  .alt p { margin: 0 0 10px; }
+  .imza { color: var(--soluk); text-decoration: none; }
+
+  /* Resme dokununca büyük hâli */
+  .foto-kutu {
+    width: min(92vw, 520px); padding: 0; border: 0; border-radius: 16px;
+    background: var(--zemin); color: var(--yazi); overflow: hidden;
+  }
+  .foto-kutu::backdrop { background: rgb(0 0 0 / .6); }
+  .foto-kutu img { display: block; width: 100%; max-height: 70vh; object-fit: cover; }
+  .foto-kutu p { margin: 0; padding: 14px 18px 18px; font: 400 24px/1.2 var(--serif); }
+  .foto-kutu .kapat {
+    position: absolute; top: 10px; right: 10px; width: 36px; height: 36px;
+    border: 0; border-radius: 50%; background: rgb(0 0 0 / .5); color: #fff;
+    font-size: 22px; line-height: 1; cursor: pointer;
+  }
 </style>
 </head>
 <body>
 
-<header>
+<header class="ust">
   <h1>Restoran Adı</h1>
-  <p>Afiyet olsun</p>
+  <p class="etiket">Menü</p>
 </header>
 
 <main>
 
-  <details open>
+  <details class="kat" open>
     <summary>Kahvaltı</summary>
     <ul>
-      <li><span><span class="ad">Serpme Kahvaltı</span><span class="aciklama">2 kişilik</span></span><span class="fiyat">₺950</span></li>
-      <li><span><span class="ad">Menemen</span></span><span class="fiyat">₺220</span></li>
-      <li><span><span class="ad">Sucuklu Yumurta</span></span><span class="fiyat">₺260</span></li>
+      <li><img src="resimler/serpme-kahvalti.webp" alt="" loading="lazy"><span class="ad">Serpme Kahvaltı (2 kişilik)</span><span class="fiyat">950 ₺</span></li>
+      <li><img src="resimler/menemen.webp" alt="" loading="lazy"><span class="ad">Menemen</span><span class="fiyat">220 ₺</span></li>
+      <li><img src="resimler/sucuklu-yumurta.webp" alt="" loading="lazy"><span class="ad">Sucuklu Yumurta</span><span class="fiyat">260 ₺</span></li>
     </ul>
   </details>
 
-  <details>
+  <details class="kat">
     <summary>Başlangıçlar</summary>
     <ul>
-      <li><span><span class="ad">Mercimek Çorbası</span></span><span class="fiyat">₺150</span></li>
-      <li><span><span class="ad">Humus</span></span><span class="fiyat">₺180</span></li>
-      <li><span><span class="ad">Sigara Böreği</span><span class="aciklama">6 adet</span></span><span class="fiyat">₺200</span></li>
+      <li><img src="resimler/mercimek-corbasi.webp" alt="" loading="lazy"><span class="ad">Mercimek Çorbası</span><span class="fiyat">150 ₺</span></li>
+      <li><img src="resimler/humus.webp" alt="" loading="lazy"><span class="ad">Humus</span><span class="fiyat">180 ₺</span></li>
+      <li><img src="resimler/sigara-boregi.webp" alt="" loading="lazy"><span class="ad">Sigara Böreği (6 adet)</span><span class="fiyat">200 ₺</span></li>
     </ul>
   </details>
 
-  <details>
+  <details class="kat">
     <summary>Ana Yemekler</summary>
     <ul>
-      <li><span><span class="ad">Izgara Köfte</span><span class="aciklama">Pilav ve közlenmiş biber ile</span></span><span class="fiyat">₺420</span></li>
-      <li><span><span class="ad">Tavuk Şiş</span></span><span class="fiyat">₺380</span></li>
-      <li><span><span class="ad">Adana Kebap</span></span><span class="fiyat">₺460</span></li>
+      <li><img src="resimler/izgara-kofte.webp" alt="" loading="lazy"><span class="ad">Izgara Köfte</span><span class="fiyat">420 ₺</span></li>
+      <li><img src="resimler/tavuk-sis.webp" alt="" loading="lazy"><span class="ad">Tavuk Şiş</span><span class="fiyat">380 ₺</span></li>
+      <li><img src="resimler/adana-kebap.webp" alt="" loading="lazy"><span class="ad">Adana Kebap</span><span class="fiyat">460 ₺</span></li>
     </ul>
   </details>
 
-  <details>
+  <details class="kat">
     <summary>Tatlılar</summary>
     <ul>
-      <li><span><span class="ad">Künefe</span></span><span class="fiyat">₺240</span></li>
-      <li><span><span class="ad">Fırın Sütlaç</span></span><span class="fiyat">₺160</span></li>
+      <li><img src="resimler/kunefe.webp" alt="" loading="lazy"><span class="ad">Künefe</span><span class="fiyat">240 ₺</span></li>
+      <li><img src="resimler/firin-sutlac.webp" alt="" loading="lazy"><span class="ad">Fırın Sütlaç</span><span class="fiyat">160 ₺</span></li>
     </ul>
   </details>
 
-  <details>
+  <details class="kat">
     <summary>İçecekler</summary>
     <ul>
-      <li><span><span class="ad">Çay</span></span><span class="fiyat">₺30</span></li>
-      <li><span><span class="ad">Türk Kahvesi</span></span><span class="fiyat">₺90</span></li>
-      <li><span><span class="ad">Ayran</span></span><span class="fiyat">₺50</span></li>
-      <li><span><span class="ad">Ev Yapımı Limonata</span></span><span class="fiyat">₺110</span></li>
+      <li><img src="resimler/cay.webp" alt="" loading="lazy"><span class="ad">Çay</span><span class="fiyat">30 ₺</span></li>
+      <li><img src="resimler/turk-kahvesi.webp" alt="" loading="lazy"><span class="ad">Türk Kahvesi</span><span class="fiyat">90 ₺</span></li>
+      <li><img src="resimler/ayran.webp" alt="" loading="lazy"><span class="ad">Ayran</span><span class="fiyat">50 ₺</span></li>
+      <li><img src="resimler/limonata.webp" alt="" loading="lazy"><span class="ad">Ev Yapımı Limonata</span><span class="fiyat">110 ₺</span></li>
     </ul>
   </details>
 
 </main>
 
-<footer>Fiyatlarımıza KDV dahildir.</footer>
+<footer class="alt">
+  <p>Fiyatlarımıza KDV dahildir.</p>
+  <a class="imza" href="https://akkurtsoft.com" target="_blank" rel="noopener">Bu menü Akkurt Soft tarafından hazırlanmıştır</a>
+</footer>
+
+<dialog class="foto-kutu" aria-label="Ürün fotoğrafı">
+  <form method="dialog"><button class="kapat" aria-label="Kapat">×</button></form>
+  <img alt="">
+  <p></p>
+</dialog>
+
+<script>
+(function () {
+  var kutu = document.querySelector('.foto-kutu');
+  var resimler = document.querySelectorAll('.kat li img');
+  function ac(img) {
+    kutu.querySelector('img').src = img.src;
+    kutu.querySelector('p').textContent = img.parentNode.querySelector('.ad').textContent;
+    kutu.showModal();
+  }
+  resimler.forEach(function (img) {
+    img.tabIndex = 0;
+    img.setAttribute('role', 'button');
+    img.setAttribute('aria-label', img.parentNode.querySelector('.ad').textContent + ' fotoğrafını büyüt');
+    img.addEventListener('click', function () { ac(img); });
+    img.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); ac(img); }
+    });
+  });
+  kutu.addEventListener('click', function (e) { if (e.target === kutu) kutu.close(); });
+})();
+</script>
 
 </body>
 </html>

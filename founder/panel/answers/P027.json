@@ -1,0 +1,15 @@
+{
+  "id": "P027",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Kart istemediği için denemeyi açarım ama o hafta sekreterim yine defterden ve WhatsApp'tan devam eder, ben de akşamları vakit bulup her şeyi aktaramam; 7 gün dolar, sistem boş kalır. Benim asıl derdim taksit ve tahsilat takibi, burada online ödeme var ama taksit takibini çözüyor mu, tanıtımda net görmüyorum.",
+  "objection": "Sekreterim yıllardır defterle çalışıyor, yeni bir panel öğrenmek istemez; hastalarımın bilgilerini de buluta ve bir yapay zekâya emanet etmek, hastaya benim yerime cevap vermesi beni tedirgin ediyor.",
+  "would_change_my_mind": "Biri gelip mevcut defter ve Excel'deki hastalarımı, taksitlerimi sisteme kendisi aktarsa, sekreterime yarım saatte gösterse ve akşamki taksit takibimi gerçekten bitirdiğini görsem.",
+  "price_too_cheap": 400,
+  "price_cheap": 900,
+  "price_expensive": 2500,
+  "price_too_expensive": 4000
+}

@@ -1,0 +1,15 @@
+{
+  "id": "P081",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "buyume",
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Ücretsiz ve kart istemediği için cevapsız çağrı özelliğine bir bakarım, ama bende 10 civarı hekim var ve bana Büyüme paketi düşüyor: KDV'yle ayda 10 bin lirayı geçiyor. Zaten parasını ödediğim bir programım var, üstüne bir aylık gider daha eklemem.",
+  "objection": "Yapay zekâ WhatsApp'ta hastama yanlış bir şey söylerse, mesela ilaç ya da tedaviyle ilgili, sorumluluğu kim alacak? Hasta da şikâyeti bana yapar. Ayrıca deneme Standart paketle, 5 hekime kadar; benim kliniğin tamamını 7 günde deneyemem bile.",
+  "would_change_my_mind": "Şu an kullandığım programın yerini tamamen alıp toplam aylık giderimi düşürdüğünü rakamla görmek.",
+  "price_too_cheap": 2000,
+  "price_cheap": 4000,
+  "price_expensive": 6500,
+  "price_too_expensive": 10000
+}

@@ -1,0 +1,15 @@
+{
+  "id": "P052",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Hiç duymadığım, tek bir referansı olmayan bir firmaya estetik hastalarımın kayıtlarını ve WhatsApp yazışmalarını teslim etmem. Defterle, Google Takvim'le, sekreterimle işler dönüyor; paradan değil, yarın kapanırlarsa ortada kalma riskinden dolayı denemeye bile girmem.",
+  "objection": "Yarın bu firma kapanırsa randevularım, hasta bilgilerim ne olacak? Bir de yapay zekânın hastama işlem ya da fiyat hakkında yanlış bir şey yazması, estetikte benim adıma bir yapay zekânın konuşması beni rahatsız ediyor.",
+  "would_change_my_mind": "Tanıdığım bir meslektaşımın kliniğinde en az bir yıldır sorunsuz kullanıldığını kendi gözümle görmem.",
+  "price_too_cheap": 800,
+  "price_cheap": 2000,
+  "price_expensive": 5000,
+  "price_too_expensive": 8000
+}

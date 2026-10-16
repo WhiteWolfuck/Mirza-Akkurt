@@ -1,0 +1,15 @@
+{
+  "id": "P079",
+  "starts_trial": true,
+  "buys": true,
+  "fit_plan": "standart",
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Her hafta birkaç hasta haber vermeden gelmiyor, tek bir boş koltuk saati bile ₺3.500'ün üstünde para kaybettiriyor. Onay/iptal butonlu hatırlatma ve cevapsız çağrıya otomatik link bu sorunu doğrudan hedefliyor, yapay zekâ asistanını da merak ediyorum. Denemede gelmeyen hasta sayısı gözle görülür azalırsa ödemeye devam ederim.",
+  "objection": "3.000 kredi bitince ne oluyor, hiç yazmıyor. Asistan susacak mı, yoksa sessizce ek ücret mi yazılacak? Krediler bitince fatura şişerse aylık ne ödeyeceğimi baştan bilemem, bu beni rahatsız ediyor.",
+  "would_change_my_mind": "Deneme sırasında kredi bitince ne kadar ek ücret çıktığını net göremezsem ya da yapay zekâ hastalara bir kez bile yanlış bilgi verirse devam etmem.",
+  "price_too_cheap": 800,
+  "price_cheap": 2000,
+  "price_expensive": 6000,
+  "price_too_expensive": 10000
+}

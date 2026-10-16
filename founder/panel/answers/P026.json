@@ -1,0 +1,15 @@
+{
+  "id": "P026",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Otuz yıldır bu işi yapıyorum, hasta kayıtlarımı tanımadığım, hiçbir meslektaşımın kullanmadığı yeni bir firmaya emanet etmem. Reklamda gördüğüm bir yazılıma deneme için bile oturup vakit ayırmam; çevremden biri memnun kaldığını söylemeden geçmem.",
+  "objection": "Hiç referansı olmayan yeni bir firma; yarın kapanırsa yıllardır biriken hasta kayıtlarım, randevularım ne olacak? Verilerimi geri alabilecek miyim, kimse bilmiyor.",
+  "would_change_my_mind": "Güvendiğim bir meslektaşımın kendi kliniğinde birkaç aydır sorunsuz kullandığını ve memnun olduğunu bizzat söylemesi.",
+  "price_too_cheap": 1200,
+  "price_cheap": 2500,
+  "price_expensive": 5000,
+  "price_too_expensive": 8000
+}

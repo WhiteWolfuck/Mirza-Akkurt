@@ -1,0 +1,15 @@
+{
+  "id": "P088",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Kart istemediği için 7 günlüğüne bakarım ama gerçek hasta verisi girmem. Verinin hangi sunucuda, hangi ülkede durduğunu ve kimin erişebildiğini yazılı görmeden hastalarımın bilgisini buluta, hele bir yapay zekânın eline bırakmam. Üstelik beni asıl ilgilendiren cevapsız çağrı mesajı Standart pakette; tek hekim olarak ₺3.500 verip bir de kredilerin ne zaman biteceğini kollamak istemem.",
+  "objection": "Hastanın WhatsApp'tan yazdığı sağlık bilgisi nereye gidiyor, yapay zekâ bu veriyi nerede işliyor, yurt dışına çıkıyor mu? 'KVKK araçları' demek bunu cevaplamıyor. Bir de krediler bitince ne oluyor, ek ücret mi çıkıyor, asistan mı susuyor, belli değil; faturanın sonunu bilmek isterim.",
+  "would_change_my_mind": "Verilerin Türkiye'de saklandığını ve kimin erişebildiğini gösteren yazılı bir KVKK taahhüdü ile veri işleme sözleşmesi, artı krediler bitince otomatik ek ücret çıkmayacağının net yazılması.",
+  "price_too_cheap": 400,
+  "price_cheap": 900,
+  "price_expensive": 2500,
+  "price_too_expensive": 4000
+}

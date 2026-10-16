@@ -1,0 +1,15 @@
+{
+  "id": "P051",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Denemeyi açarım, yapay zekânın gece WhatsApp'tan hastaya ne cevap verdiğini merak ediyorum. Ama 7 günde 4 hekimin takvimini, hasta kayıtlarını taşımam; elimdeki diş programı yerinde kalır, bu da onun üstüne ayda ₺3.500 artı KDV ödemek demek. Ek bir araç için bu para fazla.",
+  "objection": "Bu bir diş kliniği programı mı, genel bir klinik programı mı belli değil; tedavi planı, hasta geçmişi gibi şeyleri görmüyorum. Yerini alamayacaksa iki programa birden para veririm. Bir de yapay zekâ hastaya yanlış fiyat ya da yanlış tedavi bilgisi verirse sorumluluk bende kalır.",
+  "would_change_my_mind": "Sadece yapay zekâ WhatsApp asistanını ve cevapsız çağrı mesajını, mevcut programımı bırakmadan ayda ₺1.500 civarına alabilmek.",
+  "price_too_cheap": 700,
+  "price_cheap": 1500,
+  "price_expensive": 3000,
+  "price_too_expensive": 5000
+}

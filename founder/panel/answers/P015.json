@@ -1,0 +1,15 @@
+{
+  "id": "P015",
+  "starts_trial": true,
+  "buys": true,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Yoğun saatlerde telefonu açamadığım her çağrı kaçan bir hasta demek; cevapsız çağrıya otomatik randevu linki ve WhatsApp'ta 7/24 cevap veren asistan tam derdime çare. Ayda 580 bin ciro yapan bir muayenehane için birkaç bin lira hiç değil, bir iki hastayı geri kazansa kendini öder.",
+  "objection": "Sekreterim yeni bir sistemi öğrenmek istemez, deneme bitince eski alışkanlığa döner diye korkuyorum. Bir de tek hekimim ama asıl istediğim cevapsız çağrı özelliği sadece Standart pakette; 5 hekimlik pakete 3.500 ödemek zorunda kalmak biraz can sıkıcı. Yapay zekânın hastaya yanlış ya da tıbbi bir şey söylemesinden de çekinirim.",
+  "would_change_my_mind": "7 günde sekreterim sistemi kullanmayı reddederse ya da yapay zekâ asistanı hastalara saçma veya yanlış cevaplar verirse almam.",
+  "price_too_cheap": 400,
+  "price_cheap": 900,
+  "price_expensive": 3000,
+  "price_too_expensive": 6000
+}

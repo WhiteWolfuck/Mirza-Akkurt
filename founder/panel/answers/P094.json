@@ -1,0 +1,15 @@
+{
+  "id": "P094",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Cevapsız çağrıdan sonra otomatik WhatsApp ve onay butonlu hatırlatma tam derdim, o yüzden denemeyi açarım. Ama 7 günde sekreterlerim randevuyu hem eski programa hem buna girmekten bıkar; bütün hasta kaydını ve takvimi taşımadan da hatırlatma işe yaramaz, sonunda eski düzene dönerim.",
+  "objection": "Yıllardır kullandığımız klinik programındaki hasta geçmişi, fotoğraflar ve randevular ne olacak? Kim taşıyacak, taşırken bir şey kaybolursa ne olacak? Bu yaşta personelime yeni bir sistem öğretmekle uğraşmak istemiyorum.",
+  "would_change_my_mind": "Mevcut programımdaki tüm hasta ve randevu verilerini benim yerime ücretsiz taşıyıp ekibimi kurulumda bizzat eğitmeleri.",
+  "price_too_cheap": 1000,
+  "price_cheap": 2500,
+  "price_expensive": 7000,
+  "price_too_expensive": 12000
+}

@@ -1,0 +1,15 @@
+{
+  "id": "P085",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Kart istemediği için denemeyi açar, WhatsApp hatırlatmasına ve cevapsız çağrı mesajına bakarım. Ama zaten parasını ödediğim bir klinik programım var; hasta kayıtlarını, geçmiş tedavileri, taksitleri taşımak için 7 gün yetmez, ayda ₺3.500 artı KDV'yi de ikinci bir program için ödemem.",
+  "objection": "Benim akşamlarımı yiyen şey tahsilat ve taksit takibi; burada online ödeme var ama taksit planı takibi var mı yazmıyor. Mevcut programı bırakamıyorsam bu sadece üstüne eklenmiş bir aylık gider olur.",
+  "would_change_my_mind": "Mevcut programımdaki hasta ve taksit verilerini benim yerime ücretsiz taşımaları ve taksit/borç takibini gerçekten çözdüğünü göstermeleri; o zaman eski programı iptal eder, aradaki farka bakarım.",
+  "price_too_cheap": 700,
+  "price_cheap": 1500,
+  "price_expensive": 2500,
+  "price_too_expensive": 4000
+}

@@ -1,0 +1,15 @@
+{
+  "id": "P055",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "buyume",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Benim poliklinikte on hekim, üç sekreter defterle, Excel'le ve telefonla yıllardır bu düzeni döndürüyor; yedi günlük bir deneme için herkesi yeni bir panele alıştırmaya ne vaktim var ne de sabrım. Deneme de beş hekimlik Standart paketle, yani benim kliniğimi zaten tam göstermiyor.",
+  "objection": "Zaten bir klinik programım var, hasta kayıtlarını, taksitleri, Excel'deki her şeyi buraya kim taşıyacak? Benim asıl derdim akşamları oturup tahsilat ve taksit takibi yapmak; ilanda online ödeme yazıyor ama taksit takibinden tek kelime yok. Yapay zekânın hastama WhatsApp'tan ne cevap verdiğini de bilmeden ona güvenmem.",
+  "would_change_my_mind": "Verilerimi kendileri bedavaya taşısa ve taksit/tahsilat takibini bu panelden yapabildiğimi kendi gözümle görsem.",
+  "price_too_cheap": 2000,
+  "price_cheap": 4500,
+  "price_expensive": 8000,
+  "price_too_expensive": 14000
+}

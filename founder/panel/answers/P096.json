@@ -1,0 +1,15 @@
+{
+  "id": "P096",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Kart istemediği için denemeyi sahte verilerle açar, KVKK araçlarına bakarım ama gerçek hasta verimi girmem. Verilerin nerede saklandığını, kimin erişebildiğini net göremediğim ve yapay zekânın hastalarıma benim yerime cevap vermesine güvenmediğim için ücretliye geçmem.",
+  "objection": "Yapay zekâ gece WhatsApp'tan bir hastama yanlış ya da tıbbi gibi algılanacak bir şey söylerse sorumluluk bende kalıyor. Hasta verisi hangi sunucuda, yurt dışında mı, şirket çalışanları görebiliyor mu, bunu bilmeden imza atmam.",
+  "would_change_my_mind": "Hasta verilerinin Türkiye'deki sunucularda tutulduğunu ve kimlerin erişebildiğini gösteren yazılı bir veri işleme sözleşmesi, yanında da yapay zekânın sadece randevu ve saat gibi benim belirlediğim konularla sınırlanabildiğini görmek.",
+  "price_too_cheap": 500,
+  "price_cheap": 900,
+  "price_expensive": 2000,
+  "price_too_expensive": 3000
+}

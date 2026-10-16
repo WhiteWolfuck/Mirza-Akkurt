@@ -1,0 +1,39 @@
+{
+  "business": "Akkurtone (one.akkurtsoft.com): yapay zekâ destekli bulut klinik yazılımı",
+  "target": "Türkiye'de özel klinik sahibi ya da yöneticisi hekimler: diş klinikleri, estetik klinikler, poliklinikler, tek hekimli muayenehaneler ve fizik tedavi merkezleri",
+  "where": "Türkiye, çevrim içi (one.akkurtsoft.com)",
+  "notes": "Segmentler sitenin Çözümler bölümündeki beş klinik türünden alındı. Payları, ciro aralıkları, davranışlar ve itirazlar tahmindir; gerçek müşteri verisiyle düzeltilmeli. income = kliniğin aylık cirosu, TL.",
+  "age": [28, 62],
+  "segments": [
+    {"name": "Tek hekimli muayenehane (diş hekimi, psikolog, diyetisyen vb.)", "share": 0.30, "income": [250000, 900000]},
+    {"name": "2-5 hekimli diş kliniği", "share": 0.30, "income": [900000, 3500000]},
+    {"name": "Estetik / medikal estetik kliniği", "share": 0.15, "income": [1000000, 5000000]},
+    {"name": "Fizik tedavi / terapi merkezi", "share": 0.10, "income": [400000, 1500000]},
+    {"name": "Poliklinik / tıp merkezi (6-15 hekim)", "share": 0.15, "income": [3000000, 15000000]}
+  ],
+  "behaviours": [
+    {"name": "Mevcut klinik programına bağlı", "share": 0.20, "how": "Yıllardır aynı klinik programını kullanıyor; veri taşıma ve personeli yeniden eğitme fikri onu yoruyor."},
+    {"name": "Defter, Excel ve telefonla idare ediyor", "share": 0.20, "how": "Randevuları sekreter defterde ya da Google Takvim'de tutuyor, hastalara WhatsApp'tan elle yazıyor."},
+    {"name": "Fiyat odaklı", "share": 0.15, "how": "Her aylık gideri hesaplar, ucuz ya da ücretsiz bir alternatif arar."},
+    {"name": "Meslektaş tavsiyesiyle alır", "share": 0.15, "how": "Bir meslektaşı kullanıp memnun kalmadıkça yeni bir yazılıma geçmez."},
+    {"name": "Teknolojiye meraklı", "share": 0.10, "how": "Yeni araçları ilk deneyenlerden; yapay zekâya ilgili."},
+    {"name": "KVKK ve veri güvenliğine titiz", "share": 0.10, "how": "Hasta verisinin nerede saklandığını ve kimin erişebildiğini sorgular."},
+    {"name": "Kaçan hastadan şikâyetçi, büyüme odaklı", "share": 0.10, "how": "Cevapsız çağrılar ve gelmeyen hastalar yüzünden gelir kaybettiğini biliyor, çözüm arıyor."}
+  ],
+  "objections": [
+    "Zaten bir klinik programım var, verileri taşımak zahmetli",
+    "Bir yazılım için ayda bu kadar para fazla",
+    "Hasta verilerimi bulutta yeni bir firmaya emanet etmek istemiyorum",
+    "Yapay zekâ hastalarıma yanlış bilgi verirse ne olacak?",
+    "Sekreterim ve hekimlerim yeni bir sistemi öğrenmek istemez",
+    "Hiç referansı olmayan yeni bir firma; yarın kapanırsa ne olur?",
+    "Krediler bitince ek ücret çıkar, faturanın sonu belli olmaz"
+  ],
+  "habits": [
+    "yoğun saatlerde gelen telefonların bir kısmı açılamıyor",
+    "hastaların çoğu seni Instagram ve Google Haritalar üzerinden buluyor",
+    "haftada birkaç hasta haber vermeden randevusuna gelmiyor",
+    "akşamları tahsilat ve taksit takibiyle uğraşıyorsun",
+    "hastalarla zaten kişisel WhatsApp'ından yazışıyorsun"
+  ]
+}

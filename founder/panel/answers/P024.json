@@ -1,0 +1,15 @@
+{
+  "id": "P024",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Yıllardır kullandığım klinik programında bütün hastalarım, tedavi geçmişleri ve taksitler duruyor; sırf WhatsApp hatırlatma ve yapay zekâ için her şeyi taşıyıp sekreterleri yeniden eğitmeye ne vaktim ne sabrım var. Üstüne ayda 3.500 lira artı KDV, zaten program parası ödediğim bir şey için fazla.",
+  "objection": "Bu ikinci bir program olacak, randevuyu bir yere hasta kaydını başka yere girmekle uğraşırız. Benim akşamlarımı yiyen taksit ve tahsilat takibi, burada online ödeme var ama taksit takibini çözüyor mu, hiç yazmıyor.",
+  "would_change_my_mind": "Mevcut klinik programımla entegre çalışıp veri taşımadan hatırlatmaları ve taksit/tahsilat takibini üstlenmesi.",
+  "price_too_cheap": 500,
+  "price_cheap": 1200,
+  "price_expensive": 2500,
+  "price_too_expensive": 3500
+}

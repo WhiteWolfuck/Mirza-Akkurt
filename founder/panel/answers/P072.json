@@ -1,0 +1,15 @@
+{
+  "id": "P072",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "buyume",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Kredi kartı istemediği için denemeyi açarım, ama 7 günde 10 küsur hekimli bir polikliniği defterden ve elle WhatsApp'tan bu sisteme taşımak olmaz. Sekreterler hafta sonunda yine deftere döner, ben de ödemeye geçmem.",
+  "objection": "Sekreterim ve hekimlerim yeni bir sistemi öğrenmek istemez; deneme de Standart paketle, yani 5 hekimle sınırlı, bizim gibi büyük bir klinikte tam olarak deneyemem bile. Ayrıca hasta verisinin buluta gitmesi ve e-Nabız gibi sistemlerle uyumu konusunda emin değilim.",
+  "would_change_my_mind": "Birinin gelip mevcut randevuları sisteme aktarması, sekreterlere yerinde eğitim vermesi ve denemeyi bütün hekimlerimizle daha uzun süre yapabilmem.",
+  "price_too_cheap": 2000,
+  "price_cheap": 5000,
+  "price_expensive": 12000,
+  "price_too_expensive": 20000
+}

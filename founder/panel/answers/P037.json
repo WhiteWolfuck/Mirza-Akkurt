@@ -1,0 +1,15 @@
+{
+  "id": "P037",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Kredi kartı istemediği için denemeyi gerçek hasta verisi girmeden, deneme kayıtlarıyla açarım ama ücretliye geçmem. Hasta verisinin hangi sunucuda, hangi ülkede tutulduğunu ve WhatsApp'taki yapay zekânın hasta mesajlarını kime işlettiğini net göremeden estetik hastalarımın fotoğraflarını, telefonlarını buluta koymam. Üstüne, beni her akşam uğraştıran taksit ve tahsilat takibini çözdüğüne dair tek kelime yok.",
+  "objection": "'KVKK araçları' demek kolay; veri Türkiye'de mi duruyor, yapay zekâ hasta yazışmalarını yurt dışındaki bir servise mi gönderiyor, Akkurt Soft çalışanları hasta kayıtlarını görebiliyor mu? Bunu yazılı göremeden hasta verisini emanet etmem. Bir de ayda 3.500 lira artı KDV, yapay zekâ kredisi bitince ek ödeme çıkacak mı belli değil.",
+  "would_change_my_mind": "Verinin Türkiye'deki sunucularda tutulduğunu, yapay zekânın hasta mesajlarını nereye işlettiğini ve kimin erişebildiğini gösteren yazılı bir veri işleme sözleşmesi, artı taksit ve tahsilat takibini panelde gerçekten yapabildiğini denemede görmek.",
+  "price_too_cheap": 750,
+  "price_cheap": 1500,
+  "price_expensive": 3000,
+  "price_too_expensive": 6000
+}

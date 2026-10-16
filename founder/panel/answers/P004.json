@@ -1,0 +1,15 @@
+{
+  "id": "P004",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Deneme bedava ve kart istemiyor, cevapsız çağrı işi ilgimi çektiği için bir haftalığına açarım. Ama 3.500 artı KDV, yılda 50 bine yakın yapıyor; bir randevu programı ve WhatsApp mesajı için bu para bana fazla, WhatsApp Business'ın ücretsiz otomatik mesajı ve ucuz bir SMS paketiyle idare ederim diye düşünürüm.",
+  "objection": "Ayda 4 bin lirayı bir yazılıma vermek. Krediler bitince ne olacak, ek ücret çıkacak mı? Bir haftada kaç hastayı gerçekten geri getirdiğini göremezsem bu parayı neye verdiğimi bilemem.",
+  "would_change_my_mind": "Deneme haftasında cevapsız çağrıdan giden mesajlarla en az birkaç hastanın randevu aldığını sistemde rakamla görsem, ya da Standart paket 2.000 lira civarına inse.",
+  "price_too_cheap": 500,
+  "price_cheap": 1200,
+  "price_expensive": 2500,
+  "price_too_expensive": 3500
+}

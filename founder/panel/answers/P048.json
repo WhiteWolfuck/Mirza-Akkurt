@@ -1,0 +1,15 @@
+{
+  "id": "P048",
+  "starts_trial": true,
+  "buys": true,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Cevapsız çağrılar ve gelmeyen hastalar yüzünden ayda kaybettiğim para bu aboneliğin kat kat üstünde; tek bir hastayı geri kazansam parası çıkıyor. Deneme haftasında hatırlatmalar ve otomatik WhatsApp gerçekten çalışırsa devam ederim.",
+  "objection": "Sekreterim yeni bir sistemi öğrenmek istemeyecek, mevcut hasta kayıtlarımı ve takvimimi taşımak başlı başına iş. Bir de yapay zekânın hastaya yanlış ya da tıbbi bir şey söylemesinden çekiniyorum; Başlangıç paketinde cevapsız çağrı mesajının olmaması da beni Standart'a itiyor.",
+  "would_change_my_mind": "Deneme haftasında sekreterim sistemi kullanmayı bırakır da her şeyi yine deftere ve telefona dönerse vazgeçerim.",
+  "price_too_cheap": 400,
+  "price_cheap": 1000,
+  "price_expensive": 3500,
+  "price_too_expensive": 7000
+}

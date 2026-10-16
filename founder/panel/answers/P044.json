@@ -1,0 +1,15 @@
+{
+  "id": "P044",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Gelmeyen hastalar can sıkıyor ama hiç duymadığım yeni bir firmaya hastalarımın estetik geçmişini, fotoğraflarını, telefonlarını buluta yükleyemem. Tanıdığım bir meslektaşım kullanıp memnun kalmadan reklamdan gördüğüm bir yazılımı denemeye bile uğraşmam.",
+  "objection": "Hasta verilerim yeni bir bulut firmasında duracak; veri nerede tutuluyor, sızarsa KVKK cezasını kim öder belli değil. Bir de yapay zekânın WhatsApp'ta hastama benim yerime yanlış bir şey söylemesinden çekinirim.",
+  "would_change_my_mind": "Güvendiğim bir meslektaşımın birkaç aydır kullanıp memnun olduğunu kendi ağzından duymam.",
+  "price_too_cheap": 1000,
+  "price_cheap": 2000,
+  "price_expensive": 6000,
+  "price_too_expensive": 10000
+}

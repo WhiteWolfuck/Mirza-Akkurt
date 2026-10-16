@@ -1,0 +1,15 @@
+{
+  "id": "P028",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Yıllardır aynı klinik programını kullanıyoruz, tüm hasta kayıtları orada. Haftada birkaç hasta gelmiyor diye bütün sistemi değiştirip veriyi taşımaya, sekreterleri ve hekimleri baştan eğitmeye girmem.",
+  "objection": "Hastalarımın kayıtlarını, tedavi geçmişlerini adını ilk kez duyduğum bir firmanın bulutuna emanet etmek istemiyorum. Bir sızıntı olursa KVKK'da muhatap ben olurum, onlar değil.",
+  "would_change_my_mind": "Mevcut programımı bırakmadan, onunla entegre çalışıp sadece WhatsApp hatırlatma ve cevapsız çağrı kısmını üstlenmesi; hasta kayıtlarını taşımak zorunda kalmamam.",
+  "price_too_cheap": 1000,
+  "price_cheap": 2000,
+  "price_expensive": 4500,
+  "price_too_expensive": 7500
+}

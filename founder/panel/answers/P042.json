@@ -1,0 +1,15 @@
+{
+  "id": "P042",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "buyume",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Yapay zekâ asistanı ve cevapsız çağrıdan sonra giden otomatik WhatsApp gerçekten ilgimi çekti, denemeyi merakımdan açarım. Ama on hekimlik merkezde oturmuş klinik programımı bırakıp yılların hasta kaydını bir haftada taşıyamam, iki sistemi yan yana yürütmek de çift iş. Bu yüzden ödemeye geçmem.",
+  "objection": "Zaten bir klinik programım var. Bütün hasta ve randevu verisini taşımak hem zahmetli hem riskli. Deneme de 5 hekimlik Standart paketle, yani bütün hekimlerimle gerçekten test edemiyorum. e-Nabız gibi zorunlu bağlantılardan ya da mevcut programla entegrasyondan hiç söz edilmiyor.",
+  "would_change_my_mind": "Mevcut programımdaki bütün hasta ve randevu verisini benim yerime, ücretsiz ve eksiksiz taşımaları.",
+  "price_too_cheap": 2500,
+  "price_cheap": 5000,
+  "price_expensive": 12000,
+  "price_too_expensive": 20000
+}

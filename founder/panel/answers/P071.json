@@ -1,0 +1,15 @@
+{
+  "id": "P071",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "buyume",
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Kartsız deneme bedava, bir haftalığına açar bakarım. Ama 10'dan fazla hekimle bana Büyüme paketi lazım, KDV'siyle ayda 10.800 lira ediyor, yılda 130 bin. Hatırlatmayı sekreterler zaten kişisel WhatsApp'tan bedavaya atıyor, bu parayı neden ödeyeyim?",
+  "objection": "8.000 kredi bu kadar hekimin hasta yazışmasına yetmez, ay ortasında biter. Sonra ek ücret gelir, faturanın sonu belli olmaz. Bir de deneme Standart paketle, yani 5 hekimle; kliniğin tamamında nasıl çalıştığını görmeden karar veremem.",
+  "would_change_my_mind": "Kredi bitince ek ücret çıkmayacağını, faturanın her ay sabit kalacağını yazılı olarak görmek.",
+  "price_too_cheap": 1500,
+  "price_cheap": 3500,
+  "price_expensive": 6000,
+  "price_too_expensive": 9000
+}

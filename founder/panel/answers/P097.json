@@ -1,0 +1,15 @@
+{
+  "id": "P097",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Reklamda gördüğüm bir yazılıma kendi başıma geçmem; tanıdığım bir meslektaşım kullanıp memnun kalmadıkça hastalarımın kaydını, randevularımı yeni bir sisteme taşımam. Üstelik benim akşamlarımı yiyen taksit ve tahsilat takibinden hiç bahsetmiyor, ayda 3.500 artı KDV de bir yazılım için bana fazla geliyor.",
+  "objection": "Bunu kimse bana tavsiye etmedi, kim kullanıyor bilmiyorum. Ayda 4.000 küsur lira veriyorum ama asıl derdim olan taksit ve borç takibini çözüyor mu belli değil; hasta sorularını yapay zekâya cevaplatmaya da pek gönlüm yatmıyor.",
+  "would_change_my_mind": "Fizik tedavi merkezi olan bir meslektaşımın bunu aylardır kullanıp memnun olduğunu kendi ağzından duymam ve taksit, tahsilat takibini de yaptığını bana göstermesi.",
+  "price_too_cheap": 500,
+  "price_cheap": 1200,
+  "price_expensive": 2500,
+  "price_too_expensive": 4000
+}

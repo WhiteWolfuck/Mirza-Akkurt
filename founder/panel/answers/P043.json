@@ -1,0 +1,15 @@
+{
+  "id": "P043",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Yıllardır kullandığım klinik programında bütün hastalarım, randevularım, geçmiş tedaviler duruyor. Sırf hatırlatma için her şeyi yeni bir programa taşıyıp sekreterleri baştan eğitmeye ne vaktim ne de sabrım var, 7 günlük deneme için bile randevuları iki yere girmek istemem.",
+  "objection": "Bu bir eklenti değil, komple yeni bir klinik programı; geçersem veri taşıma işi ve personelin alışma süreci bana kalacak. Üstüne ayda 3.500 lira artı KDV, zaten bir programa para veriyorken bir yazılım için fazla geliyor.",
+  "would_change_my_mind": "Mevcut programımdaki bütün hasta ve randevu verilerini benim yerime ücretsiz taşıyıp personelimi klinikte bizzat eğitmeleri.",
+  "price_too_cheap": 700,
+  "price_cheap": 1500,
+  "price_expensive": 2800,
+  "price_too_expensive": 4500
+}

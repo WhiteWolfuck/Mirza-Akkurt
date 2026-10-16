@@ -1,0 +1,15 @@
+{
+  "id": "P067",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "buyume",
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Yapay zekâlı WhatsApp asistanı ve cevapsız çağrıya otomatik randevu linki hoşuma gidiyor, denemeyi açarım. Ama 10-12 hekimli bir polikliniğin hasta kayıtlarını ve randevu düzenini, hiç referansı olmayan yeni bir firmaya 7 günlük, 5 hekimlik bir denemeyle taşımam; ayın sonunda kartımı vermem.",
+  "objection": "Hiç referansı olmayan yeni bir firma; yarın kapanırsa binlerce hastanın kaydı, randevuları ve ödeme geçmişi ne olacak? Ayrıca akşamları uğraştığım tahsilat ve taksit takibinden hiç söz edilmiyor, benim asıl derdim o.",
+  "would_change_my_mind": "Benim büyüklüğümde en az iki-üç poliklinikten arayıp konuşabileceğim gerçek referanslar ve firma kapanırsa tüm hasta verisini standart bir formatta alabileceğimi yazan bir sözleşme maddesi.",
+  "price_too_cheap": 2500,
+  "price_cheap": 5000,
+  "price_expensive": 13000,
+  "price_too_expensive": 22000
+}

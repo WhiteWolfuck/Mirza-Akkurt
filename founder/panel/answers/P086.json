@@ -1,0 +1,15 @@
+{
+  "id": "P086",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Randevularımı sekreterim yıllardır defterde ve Google Takvim'de tutuyor, hastalara WhatsApp'tan kendisi yazıyor ve sistem işliyor. Tek hekimim, bir haftamı yeni programa veri aktarmaya ve sekreterime öğretmeye ayıramam; para meselesi değil, uğraşmak istemiyorum.",
+  "objection": "Bütün hasta listemi, geçmiş randevuları baştan girmek zahmetli; 7 günde kurup alışamayız, sonra yarım kalır. Bir de yapay zekânın hastalarıma benim adıma ne cevap vereceğinden emin değilim, yanlış bir şey yazarsa itibarım zedelenir.",
+  "would_change_my_mind": "Mevcut defter/Excel ve Google Takvim kayıtlarımı benim yerime aktarıp sekreterime kurulumu birebir gösterecek biri olsa, ve randevuya gelmeyen hasta sayısının gerçekten düştüğünü görsem.",
+  "price_too_cheap": 300,
+  "price_cheap": 750,
+  "price_expensive": 2500,
+  "price_too_expensive": 4500
+}

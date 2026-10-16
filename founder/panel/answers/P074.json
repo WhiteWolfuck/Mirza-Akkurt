@@ -1,0 +1,15 @@
+{
+  "id": "P074",
+  "starts_trial": true,
+  "buys": true,
+  "fit_plan": "standart",
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Fizik tedavide hasta 10-15 seanslık paket alıyor, bir seansın boş geçmesi ya da cevapsız kalan bir aramanın başka merkeze gitmesi bana ayda bu paketin kat kat fazlasına mal oluyor. 24 ve 2 saat önce onay/iptal butonlu hatırlatma ve cevapsız çağrıya otomatik randevu linki tam olarak kaybettiğim yer; ₺3.500 cironun yanında küçük para, deneme haftasında boşluklar azalırsa devam ederim.",
+  "objection": "Yapay zekâ bir hastama 'bel fıtığına şu iyi gelir' ya da yanlış fiyat, yanlış seans bilgisi verirse sorumluluk bana kalır. Bir de hastalar şu an benim kişisel WhatsApp'ımı biliyor, başka bir numaradan mesaj gelince güvenmeyip yine beni arayabilirler.",
+  "would_change_my_mind": "Deneme sırasında yapay zekânın bir hastaya tıbbi ya da yanlış bilgi verdiğini görürsem ve bunu kendim sınırlayamazsam devam etmem.",
+  "price_too_cheap": 750,
+  "price_cheap": 2000,
+  "price_expensive": 5000,
+  "price_too_expensive": 8000
+}

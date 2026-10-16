@@ -1,0 +1,15 @@
+{
+  "id": "P039",
+  "starts_trial": true,
+  "buys": true,
+  "fit_plan": "standart",
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Hastaların çoğu Instagram ve Haritalar'dan mesaj atıyor, mesai dışında ve yoğun saatlerde çağrı kaçırıyoruz; tek bir implant hastasını geri kazanmak ₺3.500'ü fazlasıyla çıkarır. Yapay zekâyı zaten denemek istiyordum, denemede asistan düzgün cevap verirse ödemeye geçerim.",
+  "objection": "Krediler bitince ne olacağı yazmıyor; bu kadar mesaj gelirken 3.000 kredi ay ortasında biterse ek ücret mi kesilecek, asistan mı duracak bilmiyorum, faturanın sonunu görmek istiyorum. Bir de diş şeması, tedavi planı gibi bize özel şeyler var mı görmedim, mevcut programımı bırakmak kolay değil.",
+  "would_change_my_mind": "Deneme sırasında asistanın hastalara yanlış fiyat ya da tıbbi bilgi verdiğini görürsem veya kredi bitince haber vermeden ek ücret kestiği ortaya çıkarsa vazgeçerim.",
+  "price_too_cheap": 1000,
+  "price_cheap": 2500,
+  "price_expensive": 6000,
+  "price_too_expensive": 10000
+}

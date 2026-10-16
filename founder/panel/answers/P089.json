@@ -1,0 +1,15 @@
+{
+  "id": "P089",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "convenience",
+  "reason": "WhatsApp'tan 7/24 cevap veren asistan ve cevapsız çağrıya otomatik link fikri hoşuma gitti, denemeyi açarım. Ama 7 günde bütün hasta kayıtlarımı taşıyamam, iki programı yan yana yürütmek de iş yükümü azaltmaz, artırır. Akşamları uğraştığım taksit ve tahsilat takibini çözdüğüne dair de bir şey görmedim, o yüzden ödemeye geçmem.",
+  "objection": "Zaten bir klinik programım var. Yıllardır biriken hasta kayıtlarını, fotoğrafları ve geçmiş işlemleri taşımak benim ve ekibim için ciddi zahmet. Bir de yapay zekânın hastalara dolgu, botoks fiyatı ya da tedavi hakkında yanlış ya da uygunsuz bir şey söylemesinden çekinirim.",
+  "would_change_my_mind": "Mevcut programımdaki verileri benim yerime ücretsiz taşımaları ve taksitli tahsilatı hasta bazında takip edip ödeme günü gelince otomatik hatırlatma göndermesi.",
+  "price_too_cheap": 1000,
+  "price_cheap": 2500,
+  "price_expensive": 6000,
+  "price_too_expensive": 10000
+}

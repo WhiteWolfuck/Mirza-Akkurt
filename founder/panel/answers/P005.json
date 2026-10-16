@@ -1,0 +1,15 @@
+{
+  "id": "P005",
+  "starts_trial": true,
+  "buys": true,
+  "fit_plan": "standart",
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Instagram ve Haritalar'dan arayıp ulaşamayan hastayı kaybettiğimi zaten biliyorum; cevapsız çağrıya otomatik randevu linki tam benim derdim. Seans paketinden tek bir hastayı geri kazanmak ayda ₺3.500'ü fazlasıyla çıkarır, deneme haftasında birkaç randevu bu linkten gelirse öderim.",
+  "objection": "Sekreterim deftere ve telefona alışık, terapistlerim de yeni ekran öğrenmek istemez; 7 günde mevcut hastaları ve haftalık seans serilerini bu takvime taşıyamazsak sistem kâğıt üstünde kalır, ben de boşuna para öderim.",
+  "would_change_my_mind": "Deneme haftasında sekreterim sistemi kullanmayı bırakıp eski deftere dönerse ve cevapsız çağrıdan tek bir randevu bile gelmezse ödemem.",
+  "price_too_cheap": 800,
+  "price_cheap": 2000,
+  "price_expensive": 5000,
+  "price_too_expensive": 8000
+}

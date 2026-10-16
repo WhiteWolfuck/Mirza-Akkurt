@@ -1,0 +1,15 @@
+{
+  "id": "P049",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Yıllardır kullandığım klinik programında bütün hasta kayıtlarım, randevularım duruyor; yeni bir sistem için veri taşımak, sekreterlerimi baştan eğitmek bana yük. Kaçan telefonlar dert, evet, ama bunun için bütün programı değiştirmem, fiyat da benim için mesele değil.",
+  "objection": "Yapay zekâ hastama yanlış fiyat ya da yanlış tedavi bilgisi verirse, hasta beni suçlar, kliniğimin adı zarar görür. Bir de eski programımdaki yılların kayıtları eksiksiz taşınabilecek mi, onu bilmiyorum.",
+  "would_change_my_mind": "Benim mevcut programımı bırakmadan, sadece kaçan çağrılara WhatsApp'tan randevu linki gönderen kısmı kullanabilsem ve yapay zekânın neyi cevaplayıp neyi bana yönlendireceğini kendim kısıtlayabilsem denerdim.",
+  "price_too_cheap": 800,
+  "price_cheap": 2000,
+  "price_expensive": 6000,
+  "price_too_expensive": 10000
+}

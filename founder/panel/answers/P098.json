@@ -1,0 +1,15 @@
+{
+  "id": "P098",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Kart istemiyor, denemesi bedava, gelmeyen hastalar için hatırlatma işime yarar diye sekretere kurdururum. Ama 7 günde sekreter defteri bırakmaz, hastaları da elle taşıyamayız; hafta biter, eski düzene döneriz, para ödemem.",
+  "objection": "Zaten elimde bir program, defter ve Excel var; yüzlerce hastayı ve randevuyu yeni sisteme kim taşıyacak? İki sistemi aynı anda tutmaya ne benim ne sekreterin vakti var.",
+  "would_change_my_mind": "Mevcut hasta ve randevu kayıtlarımı benim yerime ücretsiz taşıyıp sekretere kurulumu bizzat yapmaları ya da sadece hatırlatma kısmını mevcut düzenimi bozmadan çalıştırabilmem.",
+  "price_too_cheap": 750,
+  "price_cheap": 1500,
+  "price_expensive": 3500,
+  "price_too_expensive": 6000
+}

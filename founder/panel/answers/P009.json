@@ -1,0 +1,15 @@
+{
+  "id": "P009",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Yıllardır aynı programla çalışıyoruz, bütün hasta kayıtları, seans geçmişleri orada. Yoğun saatte açılamayan telefonlar can sıkıyor ama bunun için bütün sistemi değiştirip sekreterle hekimleri baştan eğitmeye girmem.",
+  "objection": "Sekreterim ve hekimlerim yeni bir sistemi öğrenmek istemez; yıllarca biriken verileri taşımak da başlı başına dert. Yedi günde ne anlayacağım, deneme bitince eski sisteme geri dönmek zorunda kalırsam iki kere uğraşmış olurum.",
+  "would_change_my_mind": "Mevcut programımı bırakmadan, onun yanında sadece cevapsız çağrı ve hatırlatma işini görecek şekilde çalışabilseydi.",
+  "price_too_cheap": 800,
+  "price_cheap": 1500,
+  "price_expensive": 3500,
+  "price_too_expensive": 6000
+}

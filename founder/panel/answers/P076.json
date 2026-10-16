@@ -1,0 +1,15 @@
+{
+  "id": "P076",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 0,
+  "reason_code": "convenience",
+  "reason": "Cevapsız çağrıya otomatik WhatsApp gitmesi tam benim derdim, kart istemediği için denemeyi açarım. Ama 7 günde bütün hasta kayıtlarımı ve randevularımı mevcut programdan taşıyamam, iki takvimle uğraşmaya da vaktim yok; akşamları zaten tahsilatla boğuşuyorum, deneme yarım kalır ve ödemeye geçmem.",
+  "objection": "Zaten bir klinik programım var, verileri taşımak zahmetli. Üstelik beni asıl ilgilendiren cevapsız çağrı özelliği Standart pakette; tek hekimim ama o özellik için 5 hekimlik pakete para vermem gerekecek gibi duruyor.",
+  "would_change_my_mind": "Hasta kayıtlarımı ve randevularımı mevcut programımdan benim yerime ücretsiz taşısınlar, ilk gün her şey hazır olsun.",
+  "price_too_cheap": 500,
+  "price_cheap": 1000,
+  "price_expensive": 3000,
+  "price_too_expensive": 5000
+}

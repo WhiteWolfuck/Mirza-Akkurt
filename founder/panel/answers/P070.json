@@ -1,0 +1,15 @@
+{
+  "id": "P070",
+  "starts_trial": true,
+  "buys": true,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "Akşamları kişisel WhatsApp'ımdan hastalara tek tek cevap yazmaktan bıktım; yapay zekâ bunları 7/24 karşılar, hatırlatmalar da kendiliğinden giderse ayda ₺1.500 benim için devede kulak. Denemede cevaplar düzgün çıkarsa Başlangıç paketiyle devam ederim.",
+  "objection": "Krediler bitince ne olacak, hiçbir yerde yazmıyor; ay sonunda faturaya sürpriz ek ücret çıkar mı, yoksa asistan sessizce durur mu? Bir de hastalarım benim kişisel numaramı biliyor, yeni bir numaraya geçirmek ve yapay zekânın onlara yanlış bir şey söylememesi beni düşündürüyor.",
+  "would_change_my_mind": "Denemede yapay zekânın hastalarıma yanlış ya da uydurma bilgi verdiğini görürsem veya kredi aşımında ne kadar ödeyeceğim net yazılmazsa almam.",
+  "price_too_cheap": 400,
+  "price_cheap": 1000,
+  "price_expensive": 3000,
+  "price_too_expensive": 6000
+}

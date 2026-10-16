@@ -1,0 +1,15 @@
+{
+  "id": "P078",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "buyume",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Yıllardır kullandığımız bir klinik programımız var, on hekim ve sekreterler ona alışık. Hatırlatma ve WhatsApp asistanı güzel ama binlerce hasta kaydını taşıyıp herkesi yeniden eğitmeye değecek kadar büyük bir fark görmüyorum; deneme için bile vakit ayırmam.",
+  "objection": "Verileri kim, nasıl taşıyacak, belli değil. Üstelik benim akşamlarımı yiyen asıl iş tahsilat ve taksit takibi; burada online ödeme var ama taksit takibinden hiç bahsedilmiyor. Deneme de 5 hekimlik Standart paketle, benim poliklinik ona sığmıyor bile.",
+  "would_change_my_mind": "Mevcut programımdaki tüm hasta, randevu ve ödeme verilerini kendileri ücretsiz taşıyıp personeli yerinde eğitseler ve taksit/tahsilat takibini de tek ekranda yaptığını görsem.",
+  "price_too_cheap": 2000,
+  "price_cheap": 5000,
+  "price_expensive": 13000,
+  "price_too_expensive": 20000
+}

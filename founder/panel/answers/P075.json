@@ -1,0 +1,15 @@
+{
+  "id": "P075",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Kart istemediği için denemeyi açar, hatırlatmaları birkaç hastada kurcalarım ama hasta kayıtlarımı hiç tanımadığım, referansı olmayan yeni bir firmaya taşımaya gönlüm razı olmaz. Sekreterim defterle ve WhatsApp'la idare ediyor, 7 günde bu düzeni bozacak kadar büyük bir fark göremem.",
+  "objection": "Hiç referansı yok; yarın kapanırsa hastalarımın verileri, randevularım ne olacak, nereye gidecek? Bir de hastalarım beni kişisel WhatsApp'ımdan tanıyor, yapay zekânın onlara benim yerime cevap vermesi hoşuma gitmiyor.",
+  "would_change_my_mind": "Tanıdığım bir meslektaşımın bunu en az bir yıldır sorunsuz kullandığını görmek ve verilerimi istediğim an Excel'e tam olarak çekebileceğimi gösterecek bir dışa aktarma imkânı.",
+  "price_too_cheap": 300,
+  "price_cheap": 750,
+  "price_expensive": 2000,
+  "price_too_expensive": 3500
+}

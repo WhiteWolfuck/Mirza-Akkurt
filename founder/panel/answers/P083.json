@@ -1,0 +1,15 @@
+{
+  "id": "P083",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Yıllardır aynı klinik programını kullanıyorum, bütün hasta kayıtlarım ve düzenim orada. Haftada birkaç hastanın gelmemesi can sıkıcı ama bunun için tüm sistemi değiştirip verileri taşımaya, sekreteri baştan eğitmeye girmem.",
+  "objection": "Yeni bir programa geçmek demek eski kayıtları taşımak, iki sistemi bir süre yan yana yürütmek ve personeli yeniden alıştırmak demek. Üstüne her ay KDV'siyle ₺1.800 ödemek, tek hekimli bir muayenehane için bir yazılıma fazla para.",
+  "would_change_my_mind": "Mevcut programımdaki hasta ve randevu verilerini benim hiç uğraşmama gerek kalmadan taşısalar ve ilk aylarda gelmeyen hasta sayısının gerçekten düştüğünü rakamla görebilsem.",
+  "price_too_cheap": 300,
+  "price_cheap": 600,
+  "price_expensive": 1200,
+  "price_too_expensive": 2000
+}

@@ -1,0 +1,15 @@
+{
+  "id": "P047",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Cevapsız çağrıdan sonra otomatik WhatsApp gitmesi gerçekten derdime deva, o yüzden kart istemediği için denemeyi açar kurcalarım. Ama hasta verisinin nerede tutulduğunu, yapay zekânın mesajları kime gönderdiğini bilmeden gerçek hasta verisini oraya koymam; mevcut programımı da bırakıp verileri taşımaya bu belirsizlikle girmem, deneme biter ve ödemem.",
+  "objection": "Estetik hastalarımın sağlık bilgisi ve fotoğrafları özel nitelikli veri. 'KVKK araçları' yazması bana yetmez: sunucu Türkiye'de mi, WhatsApp'taki yapay zekâ hasta mesajlarını yurt dışındaki bir modele mi gönderiyor, şirkette kim erişebiliyor, hiçbiri yazmıyor.",
+  "would_change_my_mind": "Verilerin Türkiye'deki sunucularda tutulduğunu ve yapay zekânın hasta mesajlarını yurt dışına aktarmadığını sözleşmede yazılı olarak taahhüt etmeleri.",
+  "price_too_cheap": 1000,
+  "price_cheap": 2500,
+  "price_expensive": 7500,
+  "price_too_expensive": 12000
+}

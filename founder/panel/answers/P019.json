@@ -1,0 +1,15 @@
+{
+  "id": "P019",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Hastalarımın tanıları, tedavi notları, telefonları; bunları adını ilk kez duyduğum bir firmanın bulutuna koymam. Defter ve sekreterle düzen zaten dönüyor, aylık ücret beni korkutmuyor ama verimi emanet edecek kadar güvenmiyorum.",
+  "objection": "Verilerim tam olarak nerede duruyor, firma batarsa ya da veri sızarsa ne olacak, verilerimi kim görüyor? Bir de yapay zekâ benim hastama benim adıma cevap verecek, yanlış bir şey söylerse sorumlusu ben olurum.",
+  "would_change_my_mind": "Tanıdığım bir meslektaşımın bunu en az bir yıldır sorunsuz kullandığını kendi ağzından duymam ve verilerin Türkiye'de tutulduğunu, istediğimde hepsini alıp çıkabileceğimi yazılı olarak görmem.",
+  "price_too_cheap": 800,
+  "price_cheap": 1800,
+  "price_expensive": 4000,
+  "price_too_expensive": 7000
+}

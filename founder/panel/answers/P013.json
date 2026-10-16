@@ -1,0 +1,15 @@
+{
+  "id": "P013",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Yıllardır kullandığım klinik programı işimi görüyor; hasta kayıtlarını taşımak, sekreterleri baştan eğitmek için bu yaşta uğraşamam. Kaçan telefonlar canımı sıkıyor ama bunun için bütün sistemi değiştirmem.",
+  "objection": "Krediler bitince ek ücret çıkar, faturanın sonu belli olmaz. Bir de yıllık hasta verimi yeni bir sisteme taşırsam bir şey kaybolur mu, eski programdan nasıl alınacak, kim uğraşacak, bunların hiçbiri yazmıyor.",
+  "would_change_my_mind": "Mevcut programımdan bütün hasta verisini benim yerime ücretsiz taşıyıp personeli de yerinde eğiteceklerini, kredi bitince ek ücret çıkmayacağını yazılı garanti etmeleri.",
+  "price_too_cheap": 1000,
+  "price_cheap": 2500,
+  "price_expensive": 6000,
+  "price_too_expensive": 10000
+}

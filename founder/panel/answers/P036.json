@@ -1,0 +1,15 @@
+{
+  "id": "P036",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "buyume",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Yıllardır kullandığımız bir klinik programımız var, on hekimin takvimi ve binlerce hasta kaydı onun içinde. Haftada birkaç gelmeyen hasta için bütün polikliniği yeni bir sisteme taşıyıp üstüne ayda 9.000 lira artı KDV ödemem, hele deneme bile 5 hekimlik paketle yapılıyorsa.",
+  "objection": "Hasta geçmişini, randevuları, hesapları taşırken bir şey kaybolursa ya da sekreterler yeni ekrana alışana kadar düzen bozulursa zararı kim karşılayacak? Hatırlatma SMS'ini zaten bizim program da bir şekilde yapıyor, fark ettiğim yeni şey bir yapay zekâ cevap robotu, onun da hastalara ne yazacağını bilmiyorum.",
+  "would_change_my_mind": "Mevcut programımdaki bütün verileri onların ekibinin ücretsiz ve eksiksiz taşıyacağını yazılı olarak garanti etmesi.",
+  "price_too_cheap": 1500,
+  "price_cheap": 3500,
+  "price_expensive": 6000,
+  "price_too_expensive": 9000
+}

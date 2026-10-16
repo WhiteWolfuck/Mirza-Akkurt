@@ -1,0 +1,15 @@
+{
+  "id": "P038",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "buyume",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Yıllardır kullandığımız klinik programı oturmuş, on küsur hekimin takvimini, hasta kayıtlarını ve sekreterlerin alışkanlığını sırf cevapsız çağrı derdi için baştan kurmaya girmem. Deneme bile Standart paketle, 5 hekimle geliyor; bizim polikliniği o haliyle bir haftada düzgün deneyemem bile.",
+  "objection": "Bu bir eklenti değil, komple yeni bir klinik programı. Eski verileri kim, nasıl taşıyacak, personel yeniden eğitilirken randevular karışırsa hastayı kaybeden ben olurum.",
+  "would_change_my_mind": "Cevapsız çağrıdan sonra giden randevu linki ve WhatsApp asistanını mevcut programımın yanında, veri taşımadan tek başına kullanabilseydim.",
+  "price_too_cheap": 2000,
+  "price_cheap": 5000,
+  "price_expensive": 12000,
+  "price_too_expensive": 20000
+}

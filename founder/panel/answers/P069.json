@@ -1,0 +1,15 @@
+{
+  "id": "P069",
+  "starts_trial": true,
+  "buys": true,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "Hastalar gece yarısı kişisel WhatsApp'ıma yazıyor, bundan bıktım; yapay zekâ bunları cevaplayıp hatırlatmaları kendi gönderiyorsa ayda ₺1.500 benim ciromda hiç para değil. Deneyip işe yararsa Başlangıç'la devam ederim, aylık olduğu için istediğim an keserim.",
+  "objection": "Hiç referansı olmayan yepyeni bir firma; hasta kayıtlarımı buraya taşıyıp sonra firma kapanırsa verilerim ne olacak, KVKK sorumluluğu yine bende kalır. Bir de yapay zekânın hastaya yanlış bir şey söylemesinden çekiniyorum.",
+  "would_change_my_mind": "Hasta verilerimi istediğim an toplu olarak dışarı alamayacağımı öğrenirsem ödemeye geçmem.",
+  "price_too_cheap": 400,
+  "price_cheap": 1000,
+  "price_expensive": 3500,
+  "price_too_expensive": 7000
+}

@@ -1,0 +1,15 @@
+{
+  "id": "P100",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Yıllardır kullandığımız bir klinik programımız var, bütün hasta kayıtları ve randevular orada. Sırf cevapsız çağrılara WhatsApp gitsin diye her şeyi taşıyıp asistanları baştan eğitmeye ne vaktim ne de sabrım var; 7 günlük deneme için bile iki sistemi yan yana yürütmek istemem.",
+  "objection": "Mevcut programımla bağlantı kurup kurmadığını hiç söylemiyor; sanki her şeyi bırakıp buna geçmemi bekliyor. Bir de üstüne ayda 3.500 lira artı KDV, bir yazılım için bence fazla.",
+  "would_change_my_mind": "Mevcut klinik programımı bırakmadan, onun yanında sadece cevapsız çağrı ve WhatsApp hatırlatma kısmını kullanabileceğim, verileri benim yerime taşıyan ya da hiç taşıma gerektirmeyen daha ucuz bir seçenek olsa.",
+  "price_too_cheap": 600,
+  "price_cheap": 1200,
+  "price_expensive": 2200,
+  "price_too_expensive": 3500
+}

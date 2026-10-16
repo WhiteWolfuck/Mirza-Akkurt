@@ -1,0 +1,15 @@
+{
+  "id": "P068",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Yıllardır kullandığımız klinik programında bütün hasta geçmişi ve randevular duruyor; bunu bırakıp sekreterimi ve hekimlerimi sıfırdan yeni bir panele alıştırmaya hiç niyetim yok. Fiyat cironun yanında küçük ama asıl maliyet kliniğin düzeninin bozulması, 7 günlük deneme de bunu göstermeye yetmez.",
+  "objection": "Sekreterim ve hekimlerim yeni sistemi öğrenmek istemez; eski programdaki verileri taşımak kim, nasıl yapacak belli değil, iki sistemi aynı anda kullanırsak da randevular karışır.",
+  "would_change_my_mind": "Eski programdaki tüm hasta ve randevu verisini onların taşıması ve personelime klinikte birebir eğitim vermeleri, yani geçişin bana ve ekibime hiç yük olmaması.",
+  "price_too_cheap": 800,
+  "price_cheap": 1500,
+  "price_expensive": 5000,
+  "price_too_expensive": 8000
+}

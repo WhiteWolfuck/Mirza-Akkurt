@@ -1,0 +1,15 @@
+{
+  "id": "P008",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "buyume",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Yıllardır defter, takvim ve WhatsApp'la bu kliniği döndürüyoruz, hastalarımız da şikâyet etmiyor. Para meselesi değil, ayda 9 bin lira cirom yanında hiç kalır; ama sekreterlerimi ve on küsur hekimi yeni bir sisteme alıştırmakla uğraşacak ne vaktim ne de sabrım var.",
+  "objection": "Sekreterlerim ve hekimlerim yeni bir program öğrenmek istemez; yarısı kullanır yarısı defterde devam eder, ortalık iki kat karışır. Bir de deneme Standart paketle, o da 5 hekime kadar; benim kliniğin hepsini bir haftada deneyemem bile. Hasta sorularını bir yapay zekânın cevaplaması da içime pek sinmiyor, yanlış bir şey söylerse muhatap ben olurum.",
+  "would_change_my_mind": "Birinin kliniğe gelip mevcut randevuları sisteme kendisi aktarması, sekreterlerimi yerinde eğitmesi ve ilk ay yanımızda durması; yani bizim hiçbir şey öğrenmeden geçebileceğimizi bana göstermesi.",
+  "price_too_cheap": 2000,
+  "price_cheap": 4500,
+  "price_expensive": 9000,
+  "price_too_expensive": 15000
+}

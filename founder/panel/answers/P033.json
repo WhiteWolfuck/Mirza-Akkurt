@@ -1,0 +1,15 @@
+{
+  "id": "P033",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Cevapsız çağrıdan sonra otomatik WhatsApp gitmesi gerçekten işime yarar, o yüzden denemeye bakarım ama gerçek hasta verilerimi daha önce adını duymadığım bir firmanın bulutuna yüklemeye gönlüm razı olmaz. Gerçek veriyle kullanmadan da 7 günde sekreterimi defterden koparamam, deneme biter, defter kalır.",
+  "objection": "Hastalarımın sağlık bilgileri, telefonları bu Akkurt Soft'ta duracak; firma yarın batarsa ya da veri sızarsa KVKK'da muhatap ben olurum. 'KVKK araçları' yazması bana veri nerede, kimin sunucusunda duruyor, onu söylemiyor.",
+  "would_change_my_mind": "Verilerin Türkiye'de hangi sunucuda tutulduğunu yazılı gösterip KVKK sorumluluğunu sözleşmeyle üstlenmeleri ve çevremden bunu en az bir yıldır kullanan bir diş hekiminin tavsiyesi.",
+  "price_too_cheap": 700,
+  "price_cheap": 2000,
+  "price_expensive": 5000,
+  "price_too_expensive": 8000
+}

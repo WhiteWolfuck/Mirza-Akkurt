@@ -1,0 +1,15 @@
+{
+  "id": "P095",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Kart istemediği için denemeyi açıp paneli sahte verilerle kurcalarım ama gerçek hasta verimi koymam. Hasta verisinin hangi sunucuda, hangi ülkede durduğu ve kimin erişebildiği yazmıyor; bir de yapay zekânın gece benim adıma hastama cevap vermesine razı değilim, o yüzden ücretliye geçmem.",
+  "objection": "Yapay zekâ bir hastama yanlış dozaj ya da yanlış tedavi bilgisi verirse sorumlu ben olurum. 'KVKK araçları' demek yetmez; veriler yurt içinde mi, Akkurt Soft çalışanları hasta kayıtlarını görebiliyor mu, onu bilmeden hasta verisini buluta taşımam.",
+  "would_change_my_mind": "Verilerin Türkiye'deki sunucularda tutulduğunu ve erişimin yazılı olarak sınırlandığını gösteren bir belge, artı yapay zekânın hastaya ben onaylamadan tıbbi bilgi veremediğini görmek.",
+  "price_too_cheap": 400,
+  "price_cheap": 900,
+  "price_expensive": 2500,
+  "price_too_expensive": 4000
+}

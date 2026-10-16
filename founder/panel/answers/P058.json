@@ -1,0 +1,15 @@
+{
+  "id": "P058",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Bir reklamda ya da sitede gördüğüm yazılıma geçmem; tanıdığım bir meslektaşım kullanıp memnun kalmadıkça hasta kayıtlarımı ve randevu düzenimi taşımaya girişmem. Cevapsız çağrı derdim gerçek ama sırf bunun için deneme bile başlatmam.",
+  "objection": "Yapay zekâ WhatsApp'ta hastama dolgu, botoks ya da yan etkiler hakkında yanlış bir şey söylerse sorumluluğu ben taşırım; estetikte yanlış bir cevap hem hasta sağlığı hem kliniğin itibarı demek.",
+  "would_change_my_mind": "Estetik alanında güvendiğim bir meslektaşımın aylardır kullanıp yapay zekânın hastalarına yanlış bilgi vermediğini, tıbbi soruları kliniğe yönlendirdiğini bizzat anlatması.",
+  "price_too_cheap": 1000,
+  "price_cheap": 2500,
+  "price_expensive": 6000,
+  "price_too_expensive": 10000
+}

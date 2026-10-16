@@ -1,0 +1,15 @@
+{
+  "id": "P091",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "standart",
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Benim hastalarım dolgu, botoks, lazer soruyor; bir makinenin gece yarısı WhatsApp'tan onlara benim adıma cevap vermesine gönlüm razı değil. Sekreterim defterle, ben telefonla idare ediyoruz, şikâyet yok; tanımadığım bir sistemi kurmak için bir haftamı ayırmam.",
+  "objection": "Yapay zekâ bir hastaya 'bu işlemin yan etkisi olmaz' ya da yanlış bir fiyat, yanlış bir hazırlık bilgisi verirse sorumluluğu ben taşırım; estetikte tek bir kötü yorum Instagram'da her şeyi bitirir.",
+  "would_change_my_mind": "Asistanın sadece benim onayladığım hazır cevapları (adres, saat, randevu) verdiğini, tıbbi her soruyu bize yönlendirdiğini tanıdığım bir meslektaşımın kliniğinde kendi gözümle görmem.",
+  "price_too_cheap": 1000,
+  "price_cheap": 2000,
+  "price_expensive": 5000,
+  "price_too_expensive": 10000
+}

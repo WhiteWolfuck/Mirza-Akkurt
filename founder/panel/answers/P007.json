@@ -1,0 +1,15 @@
+{
+  "id": "P007",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Hasta kayıtlarımı adını ilk kez duyduğum bir firmanın bulutuna taşımam, hele hiçbir meslektaşım kullanmıyorken. Fiyat bana sorun değil ama benim asıl derdim olan taksit ve tahsilat takibini çözdüğünü de görmüyorum, sadece online ödeme yazıyor.",
+  "objection": "Hasta verilerim yeni bir firmanın sunucusunda olacak; firma batarsa, veri sızarsa ya da KVKK'dan bir sorun çıkarsa sorumlu ben olurum. Bir de yapay zekânın hastalarıma benim adıma WhatsApp'tan cevap vermesi içime sinmiyor.",
+  "would_change_my_mind": "Güvendiğim bir meslektaşımın aylardır kullanıp memnun kaldığını kendi ağzından duymam.",
+  "price_too_cheap": 300,
+  "price_cheap": 750,
+  "price_expensive": 2500,
+  "price_too_expensive": 4500
+}

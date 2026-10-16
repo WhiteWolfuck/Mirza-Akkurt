@@ -1,0 +1,15 @@
+{
+  "id": "P023",
+  "starts_trial": true,
+  "buys": true,
+  "fit_plan": "standart",
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Haftada birkaç hasta haber vermeden gelmiyor, bir implant ya da kanal randevusu boş geçtiğinde kaybım ₺3.500'ü tek seferde aşıyor. Onay/iptal butonlu hatırlatma ve cevapsız çağrıya otomatik WhatsApp, deneme haftasında ayda bir iki hastayı geri getireceğini gösterirse parasını fazlasıyla çıkarır; ilk tepkim 'yazılıma ayda bu kadar fazla' olsa da hesap ortada.",
+  "objection": "Zaten kullandığımız bir program var, sekreterim ona alışık. Tüm hasta kayıtlarını ve takvimi buraya taşımak, ekibi alıştırmak 7 günde biter mi bilmiyorum. Bir de 3.000 kredi yoğun ayda yeter mi, biterse fatura nereye gider, onu net göremedim.",
+  "would_change_my_mind": "Deneme haftasında mevcut hasta kayıtlarımızı ve randevularımızı sorunsuz aktaramazsak ve ekip iki programı birden kullanmak zorunda kalırsa vazgeçerim.",
+  "price_too_cheap": 800,
+  "price_cheap": 1800,
+  "price_expensive": 3500,
+  "price_too_expensive": 5500
+}

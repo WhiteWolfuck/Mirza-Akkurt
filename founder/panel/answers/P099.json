@@ -1,0 +1,15 @@
+{
+  "id": "P099",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Yıllardır kullandığım program işimi görüyor; bütün hasta kayıtlarını taşımak ve düzeni baştan kurmak için ne vaktim ne de enerjim var. 7 gün deneyip sonra eski programa geri dönmek için bile uğraşmam.",
+  "objection": "Hastalarımın sağlık verilerini ilk kez duyduğum bir firmanın bulutuna emanet etmek içime sinmiyor; KVKK araçları var demek, verinin nerede tutulduğunu ve sızarsa kimin sorumlu olacağını söylemiyor. Ayrıca asıl derdim akşamları uğraştığım taksit ve tahsilat takibi, ilanda bunun nasıl çözüldüğü yazmıyor.",
+  "would_change_my_mind": "Mevcut programımdaki tüm hasta ve taksit kayıtlarını benim yerime ücretsiz taşısalar, verilerin Türkiye'de tutulduğunu yazılı olarak garanti etseler ve taksit takibini gerçekten benim yerime yaptığını görsem.",
+  "price_too_cheap": 400,
+  "price_cheap": 750,
+  "price_expensive": 1500,
+  "price_too_expensive": 2500
+}

@@ -1,0 +1,15 @@
+{
+  "id": "P010",
+  "starts_trial": false,
+  "buys": false,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Bunu bir reklamda gördüm, kullanan tek bir meslektaşımı tanımıyorum. Mevcut düzenim bir şekilde işliyor; sekreterimle her şeyi baştan kurup yeni bir sistemi öğrenmeye ne vaktim ne de niyetim var.",
+  "objection": "Sekreterim yeni bir sistemi öğrenmek istemez, hasta kayıtlarını taşımak da başımıza iş açar. Bir de hastalarıma WhatsApp'tan yapay zekânın cevap vermesi, yanlış bir şey söylerse kimin sorumlu olacağı beni düşündürüyor.",
+  "would_change_my_mind": "Güvendiğim bir meslektaşımın birkaç aydır kullanıp memnun olduğunu, özellikle kaçan telefonlardan randevu kazandığını kendi ağzından anlatması.",
+  "price_too_cheap": 400,
+  "price_cheap": 900,
+  "price_expensive": 2000,
+  "price_too_expensive": 3500
+}

@@ -1,0 +1,15 @@
+{
+  "id": "P017",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Kaçan hasta derdim gerçek, kredi kartı istemedikleri için bir hafta kurcalarım. Ama işe yaraması için bütün hasta kayıtlarımı adını ilk kez duyduğum bir firmanın bulutuna yüklemem lazım; otuz yıllık hastamın bilgisini tanımadığım birine emanet etmem, o yüzden deneme bitince devam etmem.",
+  "objection": "Hasta verilerim nerede duruyor, bu firma yarın kapanırsa ya da veri sızarsa KVKK'da muhatap ben olurum. 'KVKK araçları' yazması bana bir şey söylemiyor; kim bunlar, kaç klinik kullanıyor bilmiyorum.",
+  "would_change_my_mind": "Tanıdığım bir meslektaşın bunu en az bir yıldır sorunsuz kullandığını kendi ağzından duymak, üstüne verilerin Türkiye'de tutulduğunu gösteren imzalı bir veri işleme sözleşmesi.",
+  "price_too_cheap": 300,
+  "price_cheap": 800,
+  "price_expensive": 2500,
+  "price_too_expensive": 4500
+}

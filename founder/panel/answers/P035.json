@@ -1,0 +1,15 @@
+{
+  "id": "P035",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "buyume",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Kart istemediği için bir haftalığına kurcalarım ama sekreterlerim de hekimlerim de mevcut düzeni bırakıp yeni bir panele geçmez; hastalarla zaten kendi WhatsApp'ımdan yazışıyorum, bunun için her ay KDV'siyle 10 bin TL'yi aşan bir gider eklemem.",
+  "objection": "Bir haftada 8-10 hekimle sekreterleri yeni sisteme alıştırmak mümkün değil. Deneme de Standart paketle, yani 5 hekimle, benim klinikteki gerçek yükü görmüyorum bile. Ayrıca kullandığım sistemin yerine mi geçecek yoksa üstüne ikinci bir ücret mi olacak, belli değil.",
+  "would_change_my_mind": "Kurulumu ve personel eğitimini sizin üstlenip ilk ayı ücretsiz verdiğinizi, ekibime ek iş çıkarmadan çalıştığını kendi kliniğimde görmek.",
+  "price_too_cheap": 2000,
+  "price_cheap": 4500,
+  "price_expensive": 7500,
+  "price_too_expensive": 12000
+}

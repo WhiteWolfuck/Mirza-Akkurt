@@ -1,0 +1,260 @@
+{
+ "business": "Akkurtone (one.akkurtsoft.com): yapay zekâ destekli bulut klinik yazılımı",
+ "seed": 7,
+ "dealt": 100,
+ "answered": 100,
+ "skipped": [],
+ "buys": 11,
+ "passes": 89,
+ "buy_rate": 0.11,
+ "by_segment": [
+  [
+   "Fizik tedavi / terapi merkezi",
+   10,
+   0.3
+  ],
+  [
+   "2-5 hekimli diş kliniği",
+   30,
+   0.13333333333333333
+  ],
+  [
+   "Tek hekimli muayenehane (diş hekimi, psikolog, diyetisyen vb.)",
+   30,
+   0.13333333333333333
+  ],
+  [
+   "Poliklinik / tıp merkezi (6-15 hekim)",
+   15,
+   0.0
+  ],
+  [
+   "Estetik / medikal estetik kliniği",
+   15,
+   0.0
+  ]
+ ],
+ "by_behaviour": [
+  [
+   "Kaçan hastadan şikâyetçi, büyüme odaklı",
+   10,
+   0.6
+  ],
+  [
+   "Teknolojiye meraklı",
+   10,
+   0.5
+  ],
+  [
+   "Defter, Excel ve telefonla idare ediyor",
+   20,
+   0.0
+  ],
+  [
+   "Mevcut klinik programına bağlı",
+   20,
+   0.0
+  ],
+  [
+   "Fiyat odaklı",
+   15,
+   0.0
+  ],
+  [
+   "Meslektaş tavsiyesiyle alır",
+   15,
+   0.0
+  ],
+  [
+   "KVKK ve veri güvenliğine titiz",
+   10,
+   0.0
+  ]
+ ],
+ "by_income": [
+  [
+   "under ₺814,000",
+   33,
+   0.18181818181818182
+  ],
+  [
+   "₺814,000 to ₺2,457,000",
+   33,
+   0.09090909090909091
+  ],
+  [
+   "₺2,457,000 and up",
+   34,
+   0.058823529411764705
+  ]
+ ],
+ "why_not": [
+  [
+   "habit",
+   45,
+   [
+    "Kredi kartı istemediği için cevapsız çağrıya giden WhatsApp mesajını merak edip denemeyi açarım, ama sekreterim defteri bırakmaz, hekimler panele bakmaz; yedi gün iki sistemi yan yana yürütürüz, deneme biter, her şey eskisi gibi devam eder. Yılların düzenini bir haftada değiştirmeye ne vaktim ne de ekibimin hevesi var.",
+    "Kartsız ve ücretsiz olduğu için cevapsız çağrı özelliğini merak edip denerim ama yıllardır kullandığım programdan hasta kayıtlarını taşımaya ve sekreterimi baştan eğitmeye gücüm yok. Bir hafta içinde de yarım kalır, deneme biter, ben eski düzenime devam ederim."
+   ],
+   [
+    "P001",
+    "P002"
+   ]
+  ],
+  [
+   "trust",
+   33,
+   [
+    "Hasta kayıtlarımı adını ilk kez duyduğum bir firmanın bulutuna taşımam, hele hiçbir meslektaşım kullanmıyorken. Fiyat bana sorun değil ama benim asıl derdim olan taksit ve tahsilat takibini çözdüğünü de görmüyorum, sadece online ödeme yazıyor.",
+    "Fiyat benim için sorun değil, ₺1.500 cebimden çıkar ama hastalarımın sağlık verisini hiç tanımadığım yeni bir firmanın bulutuna koymam. Sitede verinin nerede durduğunu, kimin erişebildiğini göremiyorum; üstüne bir de yapay zekânın hastalarımın mesajlarını okuyup cevaplaması beni iyice geriyor."
+   ],
+   [
+    "P007",
+    "P012"
+   ]
+  ],
+  [
+   "price",
+   9,
+   [
+    "Bizim gibi 11 hekimli bir poliklinik için Büyüme paketi KDV'yle ayda 10.800 lira, yılda 130 bin eder; zaten parasını ödediğim bir programımız var, üstüne bir aylık gider daha eklemem. Deneme de 5 hekimlik Standart paketle, kliniğin yarısıyla deneyip neyi öğreneceğim?",
+    "Deneme bedava ve kart istemiyor, cevapsız çağrı işi ilgimi çektiği için bir haftalığına açarım. Ama 3.500 artı KDV, yılda 50 bine yakın yapıyor; bir randevu programı ve WhatsApp mesajı için bu para bana fazla, WhatsApp Business'ın ücretsiz otomatik mesajı ve ucuz bir SMS paketiyle idare ederim diye düşünürüm."
+   ],
+   [
+    "P003",
+    "P004"
+   ]
+  ],
+  [
+   "convenience",
+   2,
+   [
+    "Cevapsız çağrıya otomatik WhatsApp gitmesi tam benim derdim, kart istemediği için denemeyi açarım. Ama 7 günde bütün hasta kayıtlarımı ve randevularımı mevcut programdan taşıyamam, iki takvimle uğraşmaya da vaktim yok; akşamları zaten tahsilatla boğuşuyorum, deneme yarım kalır ve ödemeye geçmem.",
+    "WhatsApp'tan 7/24 cevap veren asistan ve cevapsız çağrıya otomatik link fikri hoşuma gitti, denemeyi açarım. Ama 7 günde bütün hasta kayıtlarımı taşıyamam, iki programı yan yana yürütmek de iş yükümü azaltmaz, artırır. Akşamları uğraştığım taksit ve tahsilat takibini çözdüğüne dair de bir şey görmedim, o yüzden ödemeye geçmem."
+   ],
+   [
+    "P076",
+    "P089"
+   ]
+  ]
+ ],
+ "why_yes": [
+  [
+   "need",
+   9,
+   [
+    "Instagram ve Haritalar'dan arayıp ulaşamayan hastayı kaybettiğimi zaten biliyorum; cevapsız çağrıya otomatik randevu linki tam benim derdim. Seans paketinden tek bir hastayı geri kazanmak ayda ₺3.500'ü fazlasıyla çıkarır, deneme haftasında birkaç randevu bu linkten gelirse öderim.",
+    "Cevapsız çağrılar ve gelmeyen hastalar yüzünden her ay para kaybettiğimi biliyorum. Cevapsız çağrıdan sonra otomatik randevu linki ve onay butonlu hatırlatma tam benim derdime çare. Ayda 3.500 lira, geri kazandığım tek bir hastanın seans paketiyle çıkar."
+   ],
+   [
+    "P005",
+    "P006"
+   ]
+  ],
+  [
+   "convenience",
+   2,
+   [
+    "Hastalar gece yarısı kişisel WhatsApp'ıma yazıyor, bundan bıktım; yapay zekâ bunları cevaplayıp hatırlatmaları kendi gönderiyorsa ayda ₺1.500 benim ciromda hiç para değil. Deneyip işe yararsa Başlangıç'la devam ederim, aylık olduğu için istediğim an keserim.",
+    "Akşamları kişisel WhatsApp'ımdan hastalara tek tek cevap yazmaktan bıktım; yapay zekâ bunları 7/24 karşılar, hatırlatmalar da kendiliğinden giderse ayda ₺1.500 benim için devede kulak. Denemede cevaplar düzgün çıkarsa Başlangıç paketiyle devam ederim."
+   ],
+   [
+    "P069",
+    "P070"
+   ]
+  ]
+ ],
+ "flip": [
+  "Biri kliniğe gelip kurulumu ve defterdeki randevuları sisteme aktarmayı kendisi yapsa, sekreterime yerinde öğretse ve ilk ay yanımızda olsa.",
+  "Mevcut programımı bırakmadan sadece cevapsız çağrıdan sonra WhatsApp/SMS giden ve hatırlatma yapan kısmı ayrı, ucuz bir eklenti olarak kullanabilmek.",
+  "Şu an ödediğim programın yerine geçip toplam yazılım giderimi gerçekten düşürdüğünü, taksit ve tahsilat takibini de yaptığını kendi rakamlarımla görmek.",
+  "Deneme haftasında cevapsız çağrıdan giden mesajlarla en az birkaç hastanın randevu aldığını sistemde rakamla görsem, ya da Standart paket 2.000 lira civarına inse.",
+  "Güvendiğim bir meslektaşımın aylardır kullanıp memnun kaldığını kendi ağzından duymam.",
+  "Birinin kliniğe gelip mevcut randevuları sisteme kendisi aktarması, sekreterlerimi yerinde eğitmesi ve ilk ay yanımızda durması; yani bizim hiçbir şey öğrenmeden geçebileceğimizi bana göstermesi.",
+  "Mevcut programımı bırakmadan, onun yanında sadece cevapsız çağrı ve hatırlatma işini görecek şekilde çalışabilseydi.",
+  "Güvendiğim bir meslektaşımın birkaç aydır kullanıp memnun olduğunu, özellikle kaçan telefonlardan randevu kazandığını kendi ağzından anlatması.",
+  "Mevcut programımı bırakmadan, verilerimi taşımama gerek kalmadan yanına sadece hatırlatma ve cevapsız çağrı mesajı kısmını ekleyebilseydim.",
+  "Verilerin Türkiye'deki sunucularda şifreli tutulduğunu, yapay zekânın hasta mesajlarını saklamadığını ve eğitimde kullanmadığını yazan, imzalı bir veri işleyen sözleşmesi ve bağımsız bir güvenlik belgesi (ör. ISO 27001).",
+  "Mevcut programımdan bütün hasta verisini benim yerime ücretsiz taşıyıp personeli de yerinde eğiteceklerini, kredi bitince ek ücret çıkmayacağını yazılı garanti etmeleri.",
+  "Güvendiğim bir meslektaşımın kliniğinde birkaç aydır sorunsuz kullanıp memnun olduğunu kendi ağzından duymak.",
+  "Mevcut programımı bırakmadan onun yanında çalışıp sadece hatırlatma ve cevapsız çağrıya WhatsApp kısmını eklemesi, yani ekibimin hiçbir yeni ekran öğrenmek zorunda kalmaması.",
+  "Tanıdığım bir meslektaşın bunu en az bir yıldır sorunsuz kullandığını kendi ağzından duymak, üstüne verilerin Türkiye'de tutulduğunu gösteren imzalı bir veri işleme sözleşmesi.",
+  "Deneme haftasında gelmeyen hasta sayısının düştüğünü kendi randevu defterimde rakamla görürsem; bir iki kaçan randevuyu kurtarması aylık parayı çıkarır.",
+  "Tanıdığım bir meslektaşımın bunu en az bir yıldır sorunsuz kullandığını kendi ağzından duymam ve verilerin Türkiye'de tutulduğunu, istediğimde hepsini alıp çıkabileceğimi yazılı olarak görmem.",
+  "Mevcut programımdaki tüm hasta ve seans verilerini benim yerime ücretsiz taşıyıp, taksit ve kalan borç takibini otomatik yaptığını gözümle görmem.",
+  "Benim büyüklüğümde kliniği olan, güvendiğim bir meslektaşımın birkaç aydır kullanıp memnun olduğunu kendi ağzından duymam.",
+  "Denemede gelmeyen hasta sayısının gözle görülür biçimde düştüğünü kendi rakamlarımda görmek",
+  "Mevcut klinik programımla entegre çalışıp veri taşımadan hatırlatmaları ve taksit/tahsilat takibini üstlenmesi.",
+  "Excel'deki hasta ve taksit listemi benim yerime içeri aktarıp taksit hatırlatmalarını otomatik gönderdiğini kendi gözümle görsem.",
+  "Güvendiğim bir meslektaşımın kendi kliniğinde birkaç aydır sorunsuz kullandığını ve memnun olduğunu bizzat söylemesi.",
+  "Biri gelip mevcut defter ve Excel'deki hastalarımı, taksitlerimi sisteme kendisi aktarsa, sekreterime yarım saatte gösterse ve akşamki taksit takibimi gerçekten bitirdiğini görsem.",
+  "Mevcut programımı bırakmadan, onunla entegre çalışıp sadece WhatsApp hatırlatma ve cevapsız çağrı kısmını üstlenmesi; hasta kayıtlarını taşımak zorunda kalmamam.",
+  "Mevcut Google Takvim ve Excel'deki hasta/randevu verilerimi benim yerime aktarıp sekreterime kurulumu yapsalar, bize iş düşmeden başlasak.",
+  "Verilerin Türkiye'deki sunucularda tutulduğunu ve kimin erişebildiğini yazılı bir veri işleyen sözleşmesiyle gösterip, mevcut programımızdaki verileri kendileri ücretsiz taşımaları.",
+  "Verilerin Türkiye'de tutulduğunu ve sözleşmeyle KVKK sorumluluğunu üstlendiklerini yazılı görmek, bir de bu yazılımı yıllardır kullanan tanıdığım bir meslektaşın tavsiyesi.",
+  "Güvendiğim bir estetik hekim meslektaşımın birkaç aydır kullanıp memnun olduğunu, kredi bitince faturasının ne kadar şiştiğini bizzat anlatması.",
+  "Verilerin Türkiye'de hangi sunucuda tutulduğunu yazılı gösterip KVKK sorumluluğunu sözleşmeyle üstlenmeleri ve çevremden bunu en az bir yıldır kullanan bir diş hekiminin tavsiyesi.",
+  "Hasta bazında taksit ve borç takibini yapıp vadesi gelenleri otomatik hatırlatması ve Standart paketin ayda 2.000 liranın altına inmesi.",
+  "Kurulumu ve personel eğitimini sizin üstlenip ilk ayı ücretsiz verdiğinizi, ekibime ek iş çıkarmadan çalıştığını kendi kliniğimde görmek.",
+  "Mevcut programımdaki bütün verileri onların ekibinin ücretsiz ve eksiksiz taşıyacağını yazılı olarak garanti etmesi.",
+  "Verinin Türkiye'deki sunucularda tutulduğunu, yapay zekânın hasta mesajlarını nereye işlettiğini ve kimin erişebildiğini gösteren yazılı bir veri işleme sözleşmesi, artı taksit ve tahsilat takibini panelde gerçekten yapabildiğini denemede görmek.",
+  "Cevapsız çağrıdan sonra giden randevu linki ve WhatsApp asistanını mevcut programımın yanında, veri taşımadan tek başına kullanabilseydim.",
+  "Verileri ücretsiz taşıyıp, taksit ve tahsilat takibini otomatik yapsa ve şu anki programımdan daha ucuza gelse geçerim.",
+  "Birisi eski randevularımı ve hasta listemi sisteme kendisi aktarsa ve taksit/borç takibini otomatik yaptığını bana gösterse.",
+  "Mevcut programımdaki bütün hasta ve randevu verisini benim yerime, ücretsiz ve eksiksiz taşımaları.",
+  "Mevcut programımdaki bütün hasta ve randevu verilerini benim yerime ücretsiz taşıyıp personelimi klinikte bizzat eğitmeleri.",
+  "Güvendiğim bir meslektaşımın birkaç aydır kullanıp memnun olduğunu kendi ağzından duymam.",
+  "Tanıdığım, yıllardır bu sistemi kullanan bir meslektaşımın verilerinin güvende olduğunu bizzat göstermesi ve verilerin Türkiye'de tutulduğunu, istediğim an tamamını dışarı alabileceğimi yazılı olarak garanti etmeleri.",
+  "Güvendiğim bir meslektaşımın en az birkaç aydır kullanıp verileri konusunda içi rahat olduğunu bana bizzat söylemesi.",
+  "Verilerin Türkiye'deki sunucularda tutulduğunu ve yapay zekânın hasta mesajlarını yurt dışına aktarmadığını sözleşmede yazılı olarak taahhüt etmeleri.",
+  "Benim mevcut programımı bırakmadan, sadece kaçan çağrılara WhatsApp'tan randevu linki gönderen kısmı kullanabilsem ve yapay zekânın neyi cevaplayıp neyi bana yönlendireceğini kendim kısıtlayabilsem denerdim.",
+  "Mevcut programımı bırakmadan, onunla yan yana çalışıp sadece WhatsApp hatırlatma ve cevapsız çağrı kısmını ekleyebilmem; ya da bütün verimi kendileri taşıyıp personelimi klinikte yerinde eğitmeleri.",
+  "Sadece yapay zekâ WhatsApp asistanını ve cevapsız çağrı mesajını, mevcut programımı bırakmadan ayda ₺1.500 civarına alabilmek.",
+  "Tanıdığım bir meslektaşımın kliniğinde en az bir yıldır sorunsuz kullanıldığını kendi gözümle görmem.",
+  "Eski programımdaki tüm hasta kayıtlarını ücretsiz ve eksiksiz taşıyıp, benim şu an ödediğimden daha ucuza gelmesi.",
+  "Bunu aylardır kullanan, arayıp doğrudan sorabileceğim bir meslektaş; bir de verilerimi her an Excel olarak dışarı alabileceğimi kendi gözümle görmek.",
+  "Verilerimi kendileri bedavaya taşısa ve taksit/tahsilat takibini bu panelden yapabildiğimi kendi gözümle görsem.",
+  "Verilerin Türkiye'deki bir veri merkezinde tutulduğunu, ISO 27001 gibi bir belgeyi ve veri işleyen sözleşmesini yazılı olarak görmek, bir de güvendiğim bir meslektaşın bunu en az bir yıldır sorunsuz kullandığını kendi ağzından duymak.",
+  "Mevcut programımdaki tüm hasta, tedavi ve taksit verisini benim yerime ücretsiz ve eksiksiz taşıyıp personelime yerinde eğitim vermeleri, üstüne de taksit/borç takibini otomatik yapan bir modül göstermeleri.",
+  "Estetik alanında güvendiğim bir meslektaşımın aylardır kullanıp yapay zekânın hastalarına yanlış bilgi vermediğini, tıbbi soruları kliniğe yönlendirdiğini bizzat anlatması.",
+  "Güvendiğim bir meslektaşımın kliniğinde aylardır sorunsuz kullandığını kendi gözümle görmem.",
+  "Verilerin Türkiye'de barındırıldığını, yapay zekânın hasta verisini yurt dışına göndermediğini gösteren imzalı bir veri işleme sözleşmesi ve ISO 27001 gibi bir belge, artı tek tıkla tüm hasta verisini dışa aktarma imkânı; bir de bunu gerçekten kullanan bir fizik tedavi merkezi referansı.",
+  "Verilerin Türkiye'de nerede tutulduğunu ve istediğim an tamamını dışa alabileceğimi yazılı olarak göstermeleri, bir de taksit ve borç takibini yapabildiğini kendi gözümle görmem.",
+  "Güvendiğim bir meslektaşımın kendi kliniğinde birkaç aydır kullanıp verilerini sorunsuz taşıdığını ve cevapsız çağrılardan gerçekten randevu kazandığını bana anlatması.",
+  "Hastaların taksitlerini ve kalan borçlarını takip edip ödeme hatırlatmasını kendisi gönderdiğini, akşamki tahsilat işimi bitirdiğini denemede gözümle görmek.",
+  "Verilerin Türkiye'deki bir sunucuda tutulduğunu ve istediğim an tüm verimi dışa alıp silebileceğimi yazılı ve sözleşmeyle garanti etmeleri, bunu kullanan tanıdığım bir fizik tedavi merkezinin de memnun olduğunu duymam.",
+  "Verinin Türkiye'deki sunucularda tutulduğunu, yapay zekânın hasta verisini yurt dışına aktarmadığını ve kimin erişebildiğini gösteren yazılı bir belge ile imzalı veri işleme sözleşmesi.",
+  "Benim büyüklüğümde en az iki-üç poliklinikten arayıp konuşabileceğim gerçek referanslar ve firma kapanırsa tüm hasta verisini standart bir formatta alabileceğimi yazan bir sözleşme maddesi.",
+  "Eski programdaki tüm hasta ve randevu verisini onların taşıması ve personelime klinikte birebir eğitim vermeleri, yani geçişin bana ve ekibime hiç yük olmaması.",
+  "Kredi bitince ek ücret çıkmayacağını, faturanın her ay sabit kalacağını yazılı olarak görmek.",
+  "Birinin gelip mevcut randevuları sisteme aktarması, sekreterlere yerinde eğitim vermesi ve denemeyi bütün hekimlerimizle daha uzun süre yapabilmem.",
+  "Mevcut klinik programımı bırakmadan, ona bağlanıp sadece WhatsApp hatırlatma ve gelmeyen hasta kısmını çözen bir şey olsaydı ve verileri taşıma işini onlar ücretsiz üstlenseydi düşünürdüm.",
+  "Tanıdığım bir meslektaşımın bunu en az bir yıldır sorunsuz kullandığını görmek ve verilerimi istediğim an Excel'e tam olarak çekebileceğimi gösterecek bir dışa aktarma imkânı.",
+  "Hasta kayıtlarımı ve randevularımı mevcut programımdan benim yerime ücretsiz taşısınlar, ilk gün her şey hazır olsun.",
+  "Tanıdığım bir estetik kliniğin bunu aylardır kullanıp memnun kaldığını kendi gözümle görmek ve kurulumu ile sekreterimin eğitimini onların bizim yerimize yapması.",
+  "Mevcut programımdaki tüm hasta, randevu ve ödeme verilerini kendileri ücretsiz taşıyıp personeli yerinde eğitseler ve taksit/tahsilat takibini de tek ekranda yaptığını görsem.",
+  "Deneme haftasında cevapsız çağrılardan ya da gece gelen WhatsApp mesajlarından en az birkaç hastanın gerçekten randevuya dönüşüp kliniğe geldiğini kendi gözümle görmek.",
+  "Şu an kullandığım programın yerini tamamen alıp toplam aylık giderimi düşürdüğünü rakamla görmek.",
+  "Güvendiğim bir meslektaşımın kendi kliniğinde aylardır kullanıp memnun kaldığını bizzat anlatması.",
+  "Mevcut programımdaki hasta ve randevu verilerini benim hiç uğraşmama gerek kalmadan taşısalar ve ilk aylarda gelmeyen hasta sayısının gerçekten düştüğünü rakamla görebilsem.",
+  "Tanıdığım bir diş hekiminin bunu aylardır kendi kliniğinde sorunsuz kullandığını ve gelmeyen hasta sayısının gerçekten düştüğünü kendi ağzından duymak.",
+  "Mevcut programımdaki hasta ve taksit verilerini benim yerime ücretsiz taşımaları ve taksit/borç takibini gerçekten çözdüğünü göstermeleri; o zaman eski programı iptal eder, aradaki farka bakarım.",
+  "Mevcut defter/Excel ve Google Takvim kayıtlarımı benim yerime aktarıp sekreterime kurulumu birebir gösterecek biri olsa, ve randevuya gelmeyen hasta sayısının gerçekten düştüğünü görsem.",
+  "Güvendiğim bir meslektaşımın bunu aylardır kullanıp gelmeyen hastaların azaldığını, sekreterinin de zorlanmadığını bizzat anlatması.",
+  "Verilerin Türkiye'de saklandığını ve kimin erişebildiğini gösteren yazılı bir KVKK taahhüdü ile veri işleme sözleşmesi, artı krediler bitince otomatik ek ücret çıkmayacağının net yazılması.",
+  "Mevcut programımdaki verileri benim yerime ücretsiz taşımaları ve taksitli tahsilatı hasta bazında takip edip ödeme günü gelince otomatik hatırlatma göndermesi.",
+  "Verinin Türkiye'de tutulduğunu ve kimlerin erişebildiğini gösteren yazılı bir veri işleme sözleşmesi, artı eski programımdaki hasta kayıtlarını benim yerime taşıyacaklarına dair net bir taahhüt.",
+  "Asistanın sadece benim onayladığım hazır cevapları (adres, saat, randevu) verdiğini, tıbbi her soruyu bize yönlendirdiğini tanıdığım bir meslektaşımın kliniğinde kendi gözümle görmem.",
+  "Mevcut programımdaki hastaları ve randevuları benim yerime ücretsiz taşımaları ya da mevcut programımla entegre çalışıp sadece cevapsız çağrı ve WhatsApp kısmını eklemeleri.",
+  "Kullandığım mevcut programdaki tüm hasta kayıtlarımı firmanın kendisi eksiksiz taşısa ve verilerin Türkiye'de nerede, nasıl saklandığını yazılı olarak, KVKK sorumluluğunu üstlenerek gösterse; yine de önce tanıdığım bir meslektaşın kullandığını görmem lazım.",
+  "Mevcut programımdaki tüm hasta ve randevu verilerini benim yerime ücretsiz taşıyıp ekibimi kurulumda bizzat eğitmeleri.",
+  "Verilerin Türkiye'deki sunucularda tutulduğunu ve erişimin yazılı olarak sınırlandığını gösteren bir belge, artı yapay zekânın hastaya ben onaylamadan tıbbi bilgi veremediğini görmek.",
+  "Hasta verilerinin Türkiye'deki sunucularda tutulduğunu ve kimlerin erişebildiğini gösteren yazılı bir veri işleme sözleşmesi, yanında da yapay zekânın sadece randevu ve saat gibi benim belirlediğim konularla sınırlanabildiğini görmek.",
+  "Fizik tedavi merkezi olan bir meslektaşımın bunu aylardır kullanıp memnun olduğunu kendi ağzından duymam ve taksit, tahsilat takibini de yaptığını bana göstermesi.",
+  "Mevcut hasta ve randevu kayıtlarımı benim yerime ücretsiz taşıyıp sekretere kurulumu bizzat yapmaları ya da sadece hatırlatma kısmını mevcut düzenimi bozmadan çalıştırabilmem.",
+  "Mevcut programımdaki tüm hasta ve taksit kayıtlarını benim yerime ücretsiz taşısalar, verilerin Türkiye'de tutulduğunu yazılı olarak garanti etseler ve taksit takibini gerçekten benim yerime yaptığını görsem.",
+  "Mevcut klinik programımı bırakmadan, onun yanında sadece cevapsız çağrı ve WhatsApp hatırlatma kısmını kullanabileceğim, verileri benim yerime taşıyan ya da hiç taşıma gerektirmeyen daha ucuz bir seçenek olsa."
+ ],
+ "purchases_first_month_per_buyer": 1.0,
+ "price_answers": 100
+}

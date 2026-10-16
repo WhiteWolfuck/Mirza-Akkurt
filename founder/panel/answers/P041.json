@@ -1,0 +1,15 @@
+{
+  "id": "P041",
+  "starts_trial": true,
+  "buys": false,
+  "fit_plan": "baslangic",
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Kredi kartı istemediği için denemeyi açarım, WhatsApp hatırlatmaları hoşuma gider. Ama 7 günde sekreterim defteri ve Google Takvim'i bırakmaz, eski hastaları sisteme girecek vaktimiz de yok. Hafta biter, yine deftere döneriz, ben de ödemeye geçmem.",
+  "objection": "Asıl derdim akşamları tahsilat ve taksit takibi, sitede online ödeme yazıyor ama taksitleri kimin ne kadar borcu kaldığını takip edip etmediği yazmıyor. Bir de sekreterim yeni sistem öğrenmek istemeyecek, deneme Standart paketle ama bana Başlangıç yeter, deneme bitince cevapsız çağrı mesajı gibi alıştığım şeyler gidecek mi bilmiyorum.",
+  "would_change_my_mind": "Birisi eski randevularımı ve hasta listemi sisteme kendisi aktarsa ve taksit/borç takibini otomatik yaptığını bana gösterse.",
+  "price_too_cheap": 400,
+  "price_cheap": 900,
+  "price_expensive": 2000,
+  "price_too_expensive": 3000
+}

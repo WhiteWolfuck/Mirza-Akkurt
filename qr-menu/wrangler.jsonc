@@ -1,0 +1,9 @@
+{
+  // Sadece statik dosya: Worker kodu yok, bu yüzden istekler
+  // günlük 100.000 limitine sayılmaz.
+  "name": "qr-menu",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./public"
+  }
+}

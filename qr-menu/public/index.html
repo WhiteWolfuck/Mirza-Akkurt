@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menü · Restoran Adı</title>
+<style>
+  :root {
+    --bg: #faf8f5; --card: #ffffff; --text: #1f1d1a; --muted: #6f6a63;
+    --line: #e7e2db; --accent: #b4532a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #141312; --card: #1d1c1a; --text: #f2efea; --muted: #a39d95;
+      --line: #2e2c29; --accent: #e08a5f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  header { padding: 28px 16px 12px; text-align: center; }
+  h1 { margin: 0; font-size: 1.6rem; }
+  header p { margin: 4px 0 0; color: var(--muted); font-size: .9rem; }
+  main { max-width: 640px; margin: 0 auto; padding: 8px 16px 32px; }
+
+  details {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 12px; margin-bottom: 10px; overflow: hidden;
+  }
+  summary {
+    list-style: none; cursor: pointer; padding: 16px;
+    font-weight: 600; font-size: 1.1rem;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; color: var(--accent); font-size: 1.5rem; font-weight: 400; line-height: 1; }
+  details[open] summary::after { content: "−"; }
+
+  ul { list-style: none; margin: 0; padding: 0 16px 6px; }
+  li {
+    display: flex; justify-content: space-between; gap: 12px;
+    padding: 12px 0; border-top: 1px solid var(--line);
+  }
+  .ad { font-weight: 500; }
+  .aciklama { display: block; color: var(--muted); font-size: .85rem; }
+  .fiyat { white-space: nowrap; font-weight: 600; color: var(--accent); }
+
+  footer { text-align: center; color: var(--muted); font-size: .8rem; padding: 0 16px 28px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Restoran Adı</h1>
+  <p>Afiyet olsun</p>
+</header>
+
+<main>
+
+  <details open>
+    <summary>Kahvaltı</summary>
+    <ul>
+      <li><span><span class="ad">Serpme Kahvaltı</span><span class="aciklama">2 kişilik</span></span><span class="fiyat">₺950</span></li>
+      <li><span><span class="ad">Menemen</span></span><span class="fiyat">₺220</span></li>
+      <li><span><span class="ad">Sucuklu Yumurta</span></span><span class="fiyat">₺260</span></li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Başlangıçlar</summary>
+    <ul>
+      <li><span><span class="ad">Mercimek Çorbası</span></span><span class="fiyat">₺150</span></li>
+      <li><span><span class="ad">Humus</span></span><span class="fiyat">₺180</span></li>
+      <li><span><span class="ad">Sigara Böreği</span><span class="aciklama">6 adet</span></span><span class="fiyat">₺200</span></li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Ana Yemekler</summary>
+    <ul>
+      <li><span><span class="ad">Izgara Köfte</span><span class="aciklama">Pilav ve közlenmiş biber ile</span></span><span class="fiyat">₺420</span></li>
+      <li><span><span class="ad">Tavuk Şiş</span></span><span class="fiyat">₺380</span></li>
+      <li><span><span class="ad">Adana Kebap</span></span><span class="fiyat">₺460</span></li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>Tatlılar</summary>
+    <ul>
+      <li><span><span class="ad">Künefe</span></span><span class="fiyat">₺240</span></li>
+      <li><span><span class="ad">Fırın Sütlaç</span></span><span class="fiyat">₺160</span></li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>İçecekler</summary>
+    <ul>
+      <li><span><span class="ad">Çay</span></span><span class="fiyat">₺30</span></li>
+      <li><span><span class="ad">Türk Kahvesi</span></span><span class="fiyat">₺90</span></li>
+      <li><span><span class="ad">Ayran</span></span><span class="fiyat">₺50</span></li>
+      <li><span><span class="ad">Ev Yapımı Limonata</span></span><span class="fiyat">₺110</span></li>
+    </ul>
+  </details>
+
+</main>
+
+<footer>Fiyatlarımıza KDV dahildir.</footer>
+
+</body>
+</html>

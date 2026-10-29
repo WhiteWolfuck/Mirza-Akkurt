@@ -1,0 +1,376 @@
+====================================================================
+PROJE DOKUMANI: Akkurt PowerPulse (v2 - Duzeltilmis)
+====================================================================
+Kategori   : Akilli Taktiksel Fener + Strobe + SOS
+Gelistirici: AkkurtSoft
+Konsept    : Stark Tech (akilli guc yonetimi, OLED arayuz)
+Tedarikci  : Direnc.net (TEK ADRES - tek sepet, tek kargo)
+Fiyat/stok : 29 Ekim 2026 tarihinde urun sayfalarindan dogrulandi.
+             Hepsinde "SEPETE EKLE" aktif = stokta.
+
+--------------------------------------------------------------------
+0. V1'DEN NELER DEGISTI (OZET)
+--------------------------------------------------------------------
+[1] LED mavi degil BEYAZ secildi (v1 linki mavi cipti - fener olmaz).
+[2] MT3608 (2A) yerine XL6009 (4A) boost kullaniliyor.
+[3] LED'e akim sinirlama eklendi (tas direnc) - LED'i yanmaktan kurtarir.
+[4] Kondansator 16V degil 35V (potla 12V'u asarsan patlamasin).
+[5] 1-3W yildiz plaka yerine 70x78x20mm gercek kanatli sogutucu.
+[6] "Energy Burst" fizigi duzeltildi - gercek degerler asagida.
+[7] Pil gerilimi okumak icin direnc bolucu eklendi (v1'de yoktu).
+[8] ESP32 beslemesi cozuldu (expansion board).
+[9] Mosfet dogru tarafa (low-side) alindi + gate direnci eklendi.
+[10] 18650 yuksek akim hucresi secildi (7.5A deşarj) - "5200mAh" sahteydi.
+
+--------------------------------------------------------------------
+1. MALZEME LISTESI (hepsi Direnc.net, hepsi stokta)
+--------------------------------------------------------------------
+
+[1] ANA ISLEMCI
+    ESP32-C3 Mini WiFi/Bluetooth Board
+    Fiyat: 174,35 TL (KDV dahil)
+    Link : https://www.direnc.net/esp32-c3-mini-wifi-bluetooth-board
+    Ozellik: ESP32C3FN4, 160 MHz RISC-V, 4MB Flash, 400kB PSRAM,
+             13 dijital IO, 3.3V, USB Type-C, 18x23mm, 2 gram
+    Gorev : Sistem kontrolu, OLED, buton, BLE SOS
+
+[2] BESLEME / SARJ KARTI  (oneriliyor)
+    ESP32-C3 Supermini Expansion Board
+    Fiyat: 104,61 TL
+    Link : https://www.direnc.net/esp32-c3-supermini-expansion-board
+    Ozellik: 3.7V lityum pil girisi, USB'den sarj (yesil LED dolunca
+             soner), VCC1+VCC2 raylari 3.3V (0R lehimi ile 3.7V),
+             37.4 x 22.5 x 15.2 mm
+    Gorev : Pili sarj eder + ESP32'ye temiz 3.3V verir.
+            BUNU ALIRSAN TP4056'ya GEREK KALMAZ.
+
+[3] ISIK KAYNAGI
+    10W BEYAZ Power Led  (HQG, DSTK3288)
+    Fiyat: 26,15 TL
+    Link : https://www.direnc.net/10w-beyaz-power-led-en
+    Ozellik: 10W, 800-900 lumen, calisma akimi 1050 mA,
+             besleme 12-24V, 30x20mm
+    Not   : Sayfada renk "warm white" yaziyor, isim "white".
+            Siparis notuna "beyaz / gun isigi" yaz.
+
+[4] VOLTAJ YUKSELTICI (BOOST)
+    XL6009 Ayarlanabilir DC-DC Voltaj Regulatoru (21697)
+    Fiyat: 65,50 TL
+    Link : https://www.direnc.net/xl6009-ayarlanabilir-dc-dc-voltaj-regulatoru-modulu
+    Ozellik: Giris 3-32V (min 3.5V), cikis 5-35V, 4A anahtar, 18W,
+             43x21x14mm, cikis potla ayarlanir
+    UYARI : 4A degeri cikis en dusukken gecerli. 12V cikista gercekci
+            sinir ~1A. Sayfasi bile "surekli yuksek akim karta zarar
+            verebilir" diyor. Bu yuzden LED'i 700mA'da tutuyoruz.
+
+[5] EKRAN
+    0.91" 128x32 OLED SSD1306 - I2C SARI (DSTK22668)
+    Fiyat: 145,29 TL
+    Link : https://www.direnc.net/128x32-091-oled-lcd-ekran-ssd1306-i2c-sari
+    Ozellik: SSD1306, 128x32, I2C (4 pin: GND/VCC/SCL/SDA), 3.3-5V
+    Not   : MAVI versiyonu genelde stokta yok:
+            https://www.direnc.net/128x32-091-oled-lcd-ekran-ssd1306-i2c-mavi
+
+[6] KONDANSATOR (burst + filtre)
+    3300uF 35V Kondansator 7.5mm 16x25mm (Koshin, T12612)
+    Fiyat: 30,21 TL
+    Link : https://www.direnc.net/3300uf-35v-kondansator-27x16
+    Ozellik: 3300uF, max 35V, 16x25mm, bacak araligi 7.5mm,
+             ripple akimi 1960mA, 2000 saat @ max sicaklik,
+             -40C / +85C, tolerans %20
+    Not   : v1'de 16V vardi. 35V aldik cunku XL6009 potu yanlis
+            ayarlanirsa cikis 35V'a kadar cikabiliyor.
+
+[7] ANAHTARLAMA ELEMANI
+    IRLZ44N N-Kanal Mosfet TO-220 (IR, T11302)
+    Fiyat: 29,06 TL
+    Link : https://www.direnc.net/irlz44n-d2pak-smd-n-kanal-mosfet-en
+    Ozellik: N-kanal, Vds 55V, surekli 47A, TO-220, logic-level
+             (3.3V gate ile suruluyor)
+
+[8] PIL
+    3.7V 2600 mAh 18650 Li-ion Sarjli Pil - Bassiz (Power-Xtra, 19720)
+    Fiyat: 184,81 TL
+    Link : https://www.direnc.net/37v-2600-mah-18650-li-ion-sarjli-pil-bassiz
+    Ozellik: 3.7V, 2600 mAh, MAX DESARJ 7500 mA, 18x65mm, 46 gram
+    Not   : Kritik parca. Ucuz hucre 3A'de gerilimi cokertir.
+            v1'deki "5200 mAh" ilani sahte (gercek 18650 tavani ~3500).
+
+[9] PIL YUVASI
+    18650 Lityum Iyon Pil Yuvasi - 1 Kanal (DirencNet, 13382)
+    Fiyat: 12,79 TL
+    Link : https://www.direnc.net/18650-lityum-iyon-pil-yuvasi-1-kanal
+
+[10] BUTON
+    DC180 16mm Isikli Yayli Buton (Daier/XN, DSTK5894)
+    Fiyat: 37,66 TL
+    Link : https://www.direnc.net/dc180-isikli-yayli-buton-en
+    Ozellik: 16mm, yayli (anlik/momentary - birakinca devre acilir),
+             buton LED'i 3V ile calisir
+    Alternatif (daha saglam metal, daha pahali, 125,53 TL):
+            https://www.direnc.net/16mm-yayli-buton-yesil-1no1nc-yuvarlak-en
+
+[11] LED SOGUTUCUSU
+    10AS Aluminyum Sogutucu (ARMA, DSTK4507)
+    Fiyat: 109,67 TL
+    Link : https://www.direnc.net/10as-sogutucu
+    Ozellik: 70 x 78 x 20 mm
+    Not   : LED 30x20mm oldugu icin bu olcu rahat yetiyor.
+            v1'deki 1-3W yildiz plaka 10W'i kesinlikle tasimaz.
+
+[12] MOSFET SOGUTUCUSU
+    TO220 Aluminyum Sogutucu - Beyaz
+    Fiyat: 6,97 TL
+    Link : https://www.direnc.net/to220-sogutucu
+    Ozellik: 19.7 x 14.8 x 9.7 mm
+
+[13] DIRENC PAKETI
+    1/4W Metal Film Direnc Paketi - 600 adet (21744)
+    Fiyat: 142,97 TL
+    Link : https://www.direnc.net/1/4w-metal-film-direnc-paketi-600-adet
+    Icerik: 30 deger x 20 adet. 10R'den 1M'ye kadar
+            (220R, 270R, 330R, 1K, 10K, 100K... hepsi var)
+    Gorev : gate seri direnci 220R, gate pull-down 10K,
+            pil olcum bolucusu 2x100K, kondansator bleed 10K
+    UCUZ ALTERNATIF: paketi almayip tekil al (~5 TL):
+            https://www.direnc.net/10k-14w-direnc
+
+[14] LED AKIM SINIRLAMA DIRENCI (2 adet)
+    2.2R 5W Tas Direnc
+    Fiyat: 4,07 TL x 2 = 8,14 TL
+    Link : https://www.direnc.net/22r-5w-tas-direnc-1-en
+    Gorev : LED akimini 700mA'da tutmak. 1/4W direnc BURADA YANAR,
+            mutlaka 5W tas direnc olmali.
+    Yedek : 1R 5W -> https://www.direnc.net/1r-5w-tas-direnc-en
+
+[15] KABLO
+    Kablo cesitleri: https://www.direnc.net/cable-types
+    Tahmini: ~50 TL
+    UYARI : 12V LED hatti icin KALIN kablo (en az 0.75mm2 / 18AWG).
+            Jumper kablo seti 3A'de isinir, kullanmayin.
+            Jumper sadece OLED ve buton icin.
+
+--------------------------------------------------------------------
+2. TOPLAM FIYAT
+--------------------------------------------------------------------
+ONERILEN KURULUM (expansion board'lu):
+  [1]  ESP32-C3 Mini board ................. 174,35
+  [2]  Expansion board (sarj + 3.3V) ....... 104,61
+  [3]  10W Beyaz Power LED .................. 26,15
+  [4]  XL6009 boost ......................... 65,50
+  [5]  0.91" OLED sari .................... 145,29
+  [6]  3300uF 35V kondansator ............... 30,21
+  [7]  IRLZ44N mosfet ....................... 29,06
+  [8]  18650 Power-Xtra 2600mAh ............ 184,81
+  [9]  18650 pil yuvasi ..................... 12,79
+  [10] DC180 16mm buton ..................... 37,66
+  [11] 10AS LED sogutucusu ................. 109,67
+  [12] TO220 mosfet sogutucusu ............... 6,97
+  [13] Direnc paketi 600 adet .............. 142,97
+  [14] 2.2R 5W tas direnc x2 ................. 8,14
+                                           ---------
+  PARCA TOPLAMI ........................... 1.078,18 TL
+  + kablo (tahmini) .......................... ~50,00 TL
+                                           =========
+  GENEL TOPLAM ............................ ~1.128 TL (KDV dahil)
+
+EKONOMIK KURULUM (direnc paketi yerine tekil direncler):
+  1.078,18 - 142,97 + ~5 = ~940 TL  (+kablo = ~990 TL)
+
+TP4056'LI ALTERNATIF (expansion board yerine):
+  TP4056 USB Type-C modulu - 16,34 TL
+  https://www.direnc.net/tp4056-18650-lityum-pil-sarj-modulu-usb-tip-c
+  Teknik: lineer sarj, 5V giris, 4.2V sarj, varsayilan 1A
+          (direnc degistirilerek 100-1000mA), 25x19x10mm
+          Ters baglanti korumasi YOK - pili ters takarsan cip gider.
+  Bu secimde toplam ~990 TL olur AMA ESP32'yi 3.3V'a dusurmek icin
+  ayrica bir LDO (HT7333) lazim. Expansion board bu isi hazir yapiyor,
+  o yuzden expansion board onerilir.
+
+OPSIYONEL:
+  10 derece lens (isigi odaklamak icin):
+  https://www.direnc.net/10-derece-lens-en
+
+NOT: 1500 TL uzeri siparislerde kargo bedava. Bu sepet 1128 TL,
+     yani kargo ucreti cikacak. Yedek parca (2. LED, 2. mosfet)
+     ekleyip 1500'u gecirmek mantikli olabilir.
+
+--------------------------------------------------------------------
+3. STOK DURUMU (29.10.2026 kontrolu)
+--------------------------------------------------------------------
+Listedeki 14 parcanin TAMAMI siparise acik ("SEPETE EKLE" aktif).
+
+Siparis verirken dikkat:
+- OLED: SARI stokta, MAVI genelde tukenmis. Sari al.
+- 10W LED: beyaz stokta. Mavi de var ama alma.
+- Direnc.net fiyatlari kategori sayfasi ile urun sayfasi arasinda
+  farkli gorunuyor. Sepette cikan fiyat gecerlidir.
+- 18650 pil en pahali parca (184 TL) ve en kritik olani.
+  Stokta yoksa BEKLE, ucuz hucreyle degistirme.
+
+--------------------------------------------------------------------
+4. VOLTAJ VE MIMARI YAPISI
+--------------------------------------------------------------------
+3.3V MANTIK HATTI:
+  18650 -> Expansion Board -> 3.3V -> ESP32-C3 + OLED + buton
+
+12V GUC HATTI (kalin kablo!):
+  18650 (+) -> XL6009 giris
+  XL6009 cikis (12V) -> 3300uF kondansator (+)
+  Kondansator (+) -> 10W LED (+)
+  LED (-) -> 2.2R 5W tas direnc -> IRLZ44N DRAIN
+  IRLZ44N SOURCE -> GND
+  IRLZ44N GATE -> 220R -> ESP32 GPIO5
+  GATE ile GND arasi -> 10K pull-down (ZORUNLU)
+
+ONEMLI: Mosfet N-kanal oldugu icin LED'in EKSI bacaginda
+(low-side) olmak ZORUNDA. v1 dokumaninda "Kondansator -> Mosfet
+-> LED" yaziyordu, bu yanlis; o sirayla gate surucu olmadan
+iletime gecmez.
+
+PIN BAGLANTILARI (ESP32-C3):
+  GPIO8  -> OLED SDA
+  GPIO9  -> OLED SCL
+  GPIO5  -> Mosfet gate (220R seri uzerinden)
+  GPIO3  -> Buton (INPUT_PULLUP, butonun oteki bacagi GND)
+  GPIO0  -> Pil gerilimi olcumu (100K+100K bolucu, orta nokta)
+  Not: GPIO8 ve GPIO9 ESP32-C3'te boot strap pinleri. I2C hatti
+       zaten yukari cekili durdugu icin sorun yok, ama kod
+       yuklerken bu pinlere elle dokunma.
+
+PIL OLCUM BOLUCUSU:
+  Pil(+) -> 100K -> GPIO0 -> 100K -> GND
+  Boylece 4.2V pil -> 2.1V ADC. ESP32-C3 ADC maksimumu ~2.5V,
+  guvenli araliktadir.
+
+KONDANSATOR BLEED DIRENCI:
+  Kondansator uclarina paralel 10K. Cihazi kapattiginda
+  kondansator bosalsin, elini carpmasin.
+
+--------------------------------------------------------------------
+5. AKIM VE ISI HESAPLARI (neden 700mA?)
+--------------------------------------------------------------------
+LED tam gucte (1050 mA):
+  LED gucu        : ~10 W
+  Boost cikis     : 12V x 0.85A = ~10 W
+  Boost verimi    : ~%85
+  PILDEN CEKILEN  : 11.8W / 3.7V = 3.2 A
+  Pil bosalirken  : 11.8W / 3.0V = 3.9 A
+  -> XL6009 bunu SUREKLI tasimaz, isinir ve gerilimi coker.
+
+LED 700 mA'da (onerilen):
+  LED gucu        : ~7 W
+  Pilden cekilen  : ~2.2 A  -> XL6009 rahat, pil (7.5A) rahat
+  Isik            : ~600 lumen (gayet parlak bir fener)
+  Pil omru        : 2600mAh / 2200mA = ~1.1 saat kesintisiz
+                    (strobe modunda %50 duty -> ~2 saat)
+
+TAS DIRENC HESABI:
+  LED Vf'i olcup (~9-10V civari) boost cikisini 12V'a ayarla.
+  R = (12V - 10V) / 0.7A = ~2.9 ohm
+  -> 2.2R kullan, akimi olcerek potu ince ayarla.
+  Direnc uzerindeki guc: 0.7A^2 x 2.2R = ~1.1 W
+  -> 5W tas direnc bu yuzden sart (1/4W direnc yanar).
+
+ISI:
+  LED'in ~7W'inin buyuk kismi isiya gider. 10AS sogutucu
+  (70x78x20mm) + termal macun ile LED yuzeyi 60-70C bandinda
+  kalir. Sogutucu OLMADAN 30 saniyede LED oluyor.
+
+--------------------------------------------------------------------
+6. CALISMA MODLARI (gerceklesebilir hali)
+--------------------------------------------------------------------
+1. NORMAL FENER (tek tik)
+   LED %100 duty, 700 mA. OLED'de pil yuzdesi + mod adi.
+   ~600 lumen, ~1.1 saat.
+
+2. STROBE / FLASHBANG (cift tik)
+   LED 13 Hz'de PWM ile caki. ESP32 LEDC donanim PWM kullanilir.
+   Kondansator burada gercek isini yapiyor: boost'un darbeli
+   yuku gormesini engelliyor, cikis gerilimini sabit tutuyor.
+   Pil omru bu modda ~2 saat (duty %50).
+
+3. OVERDRIVE BURST (basili tutma)  *** DUZELTILMIS ***
+   v1'deki iddia: kondansator dolar, birakinca BAM patlama.
+   GERCEK FIZIK:
+     E = 0.5 x C x V^2 = 0.5 x 3300uF x 12V^2 = 0.24 Joule
+     10W LED'de bu sadece 24 MILISANIYE'lik enerji.
+     Ayrica kondansator 12V hattina paralel oldugu icin
+     MILISANIYELERDE dolar - "3 saniye dolum" diye bir sey yok.
+   YAPILABILEN:
+     Basili tutarken LED'i %40 guce dusur (pil toparlanir,
+     OLED'de dolum bari ilerler - bu animasyon artik dogru,
+     cunku gercekten gucu geri kazaniyorsun).
+     Birakinca 300 ms boyunca 1050 mA (tam guc, 900 lumen)
+     ver, sonra normal moda don.
+     Bu gercek ve gozle gorulur bir "patlama" hissi verir,
+     LED'i de yakmaz.
+   YAPILMAMASI GEREKEN:
+     Kondansatoru direkt LED'e bosaltmak. Tepe akimi sadece
+     ESR ile sinirli kalir (onlarca amper) ve LED'in bond
+     wire'i gider. Akim yolunda tas direnc her zaman olmali.
+   GERCEK BURST ISTIYORSAN:
+     1 saniye 30W icin 30 Joule, yani C = 2E/V^2 = 0.42 FARAD
+     gerekir. Yani superkapasitor bankasi. 3300uF ile olmaz.
+
+4. BLUETOOTH SOS (uc tik)  *** SINIRLARI ***
+   ESP32-C3 SADECE BLE destekler, Bluetooth Classic/SPP YOK.
+   Yani telefona "baglanip SMS atmak" dogrudan mumkun degil.
+   GEREKENLER:
+     - Kendi mobil uygulaman (Flutter/React Native + BLE)
+       ya da MIT App Inventor ile basit bir BLE dinleyici.
+     - Konum TELEFONUN GPS'inden gelir. Devrede GPS modulu yok,
+       ESP32 konum bilmez.
+     - Akis: buton 3 tik -> ESP32 BLE karakteristigine "SOS"
+       yazar -> telefon uygulamasi bunu okur -> telefon kendi
+       konumunu alir ve kayitli kisilere SMS/WhatsApp atar.
+   v1 dokumanindaki "ESP32 telefona baglanir ve mesaj gonderir"
+   ifadesi eksik - araya uygulama yazmak sart.
+
+--------------------------------------------------------------------
+7. MONTAJ SIRASI (yakmadan kurma)
+--------------------------------------------------------------------
+1. XL6009'u LED BAGLI OLMADAN pile bagla. Potu cevirip
+   multimetre ile cikisi TAM 12.0V yap. (Bunu atlarsan
+   35V cikip her seyi yakarsin.)
+2. Kondansatoru dogru kutupta (uzun bacak +) hatta ek.
+   Ters takarsan patlar.
+3. LED'i termal macunla 10AS sogutucuya yapistir/vidala.
+   LED'i SOGUTUCUSUZ 1 saniye bile yakma.
+4. Mosfet + tas direnc + LED zincirini kur. Gate'e 220R ve
+   10K pull-down'i takmadan ESP32'yi bagla-ma.
+5. Multimetre seri baglayip LED akimini olc. 700 mA olana
+   kadar potu ince ayarla.
+6. ESP32'yi en son bagla, once bos kodla boot ettir,
+   sonra OLED'i, sonra gate'i bagla.
+
+--------------------------------------------------------------------
+8. GUVENLIK
+--------------------------------------------------------------------
+- Li-ion: ters kutup = yangin. TP4056'nin ters baglanti korumasi
+  YOK (urun sayfasi soyluyor). Kutuplari iki kez kontrol et.
+- Kondansator: kapattiktan sonra uzerinde gerilim kalir.
+  Bleed direncini (10K) takmayi atlama.
+- Isi: 10AS sogutucu calisirken 60C+ olur. Kutuda hava delikleri
+  birak, sogutucuyu plastige gomme.
+- Goz: 900 lumen'i yakin mesafeden kimsenin gozune tutma.
+  Kalici hasar vermez ama strobe modu bas donmesi/denge kaybi
+  yapabilir.
+- Yasal: "kor edici / flashbang" olarak tanimlanan cihazlar
+  duruma gore sorun dogurabilir. Urunu "taktiksel fener +
+  strobe + acil durum SOS" olarak konumlandirmak daha guvenli.
+  Dokumandaki "kor edici" iddiasini pazarlama metninden cikar.
+
+--------------------------------------------------------------------
+9. ILERI SURUM FIKIRLERI (v3)
+--------------------------------------------------------------------
+- TAM 10W istiyorsan: 3 hucre seri (3S, 12.6V) + 3S BMS ve LED'i
+  PT4115 step-down SABIT AKIM surucu ile 1050 mA'da sur.
+  Boost'a hic gerek kalmaz, verim ve isi cok daha iyi olur.
+  PT4115: https://www.direnc.net/pt4115-smd-sot89-5-30v-12a-step-down-high-brightness-led-driver-with-50001-dimming-en
+  Ama sarj mimarisi tamamen degisir (TP4056 tek hucreliktir).
+- Gercek Energy Burst icin superkapasitor (0.5F+) bankasi.
+- Lens ile isigi odaklamak (10 derece lens).
+- Sicaklik sensoru (NTC) ile LED asiri isinirsa otomatik
+  guc dusurme.
+====================================================================
